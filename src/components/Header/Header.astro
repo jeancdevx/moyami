@@ -1,0 +1,254 @@
+---
+import logo from '@/assets/brand/svg/moyami-compacto-inverso.svg'
+const links = [
+  { href: '/#inicio', text: 'Inicio' },
+  { href: '/#catalogo', text: 'Catálogo' },
+  { href: '/#nosotras', text: 'Amy y Molly' },
+  { href: '/#ubicacion', text: 'Encuéntranos' }
+]
+---
+
+<header class='site-header'>
+  <nav aria-label='Navegación principal' class='island-nav'>
+    <a href='/' aria-label='Moyami, inicio' class='nav-brand'>
+      <img src={logo.src} width='180' height='52' alt='Moyami' />
+    </a>
+    <div class='desktop-links'>
+      {links.map((link, index) => (
+        <a
+          href={link.href}
+          aria-current={
+            Astro.url.pathname === '/' && index === 0 ? 'page' : undefined
+          }
+        >
+          {link.text}
+        </a>
+      ))}
+    </div>
+    <button
+      class='menu-toggle'
+      aria-label='Abrir menú'
+      aria-controls='mobile-menu'
+      aria-expanded='false'
+      data-menu-open
+      hidden
+    >
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+  <dialog id='mobile-menu' class='mobile-menu' aria-label='Menú de navegación'>
+    <div class='menu-bar'>
+      <a href='/' aria-label='Moyami, inicio'>
+        <img src={logo.src} width='180' height='52' alt='Moyami' />
+      </a>
+      <button
+        class='menu-toggle is-open'
+        aria-label='Cerrar menú'
+        data-menu-close
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav aria-label='Navegación móvil'>
+      {links.map((link, index) => (
+        <a style={`--link-order: ${index}`} href={link.href}>
+          {link.text}
+        </a>
+      ))}
+    </nav>
+    <p>Un nuevo antojo te espera en Caraz.</p>
+  </dialog>
+</header>
+<script>
+  const opener = document.querySelector<HTMLButtonElement>('[data-menu-open]')
+  const menu = document.querySelector<HTMLDialogElement>('#mobile-menu')
+  if (opener && menu) {
+    opener.hidden = false
+    const close = () => {
+      menu.close()
+      opener.setAttribute('aria-expanded', 'false')
+      opener.classList.remove('is-open')
+      opener.focus()
+    }
+    opener.addEventListener('click', () => {
+      menu.showModal()
+      opener.setAttribute('aria-expanded', 'true')
+      opener.classList.add('is-open')
+    })
+    menu.querySelector('[data-menu-close]')?.addEventListener('click', close)
+    menu
+      .querySelectorAll('a')
+      .forEach(link => link.addEventListener('click', close))
+    menu.addEventListener('cancel', () => {
+      opener.setAttribute('aria-expanded', 'false')
+      opener.classList.remove('is-open')
+    })
+  }
+</script>
+<style>
+  .site-header {
+    position: relative;
+    z-index: 30;
+    padding: 24px 16px 0;
+  }
+  .island-nav {
+    width: max-content;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 8px 12px 8px 24px;
+    border: 1px solid #ffffff26;
+    border-radius: 9999px;
+    background: #18201af2;
+    color: var(--color-tiza);
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    backdrop-filter: blur(24px);
+  }
+  .nav-brand {
+    display: block;
+    flex: 0 0 auto;
+  }
+  .nav-brand img {
+    width: 180px;
+    height: 48px;
+    object-fit: contain;
+  }
+  .desktop-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  .desktop-links a {
+    padding: 8px 12px;
+    border-radius: 9999px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    font-weight: 600;
+    transition:
+      color 700ms var(--fluid),
+      background-color 700ms var(--fluid);
+  }
+  .desktop-links a:hover,
+  .desktop-links a[aria-current] {
+    color: var(--color-carbon);
+    background: var(--color-lima);
+  }
+  .menu-toggle {
+    position: relative;
+    border: 0;
+    background: transparent;
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+    color: var(--color-tiza);
+    transition: background-color 700ms var(--fluid);
+  }
+  .menu-toggle:hover {
+    background: #ffffff1a;
+  }
+  .menu-toggle span {
+    width: 24px;
+    height: 2px;
+    background: currentColor;
+    position: absolute;
+    left: 12px;
+    top: 24px;
+    transform: translateY(-4px);
+    transition: transform 700ms var(--fluid);
+  }
+  .menu-toggle span + span {
+    transform: translateY(4px);
+  }
+  .menu-toggle.is-open span {
+    transform: rotate(45deg);
+  }
+  .menu-toggle.is-open span + span {
+    transform: rotate(-45deg);
+  }
+  .mobile-menu {
+    inset: 0;
+    margin: 0;
+    padding: 24px;
+    width: 100%;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    border: 0;
+    background: #18201ae6;
+    color: var(--color-tiza);
+    backdrop-filter: blur(48px);
+  }
+  .mobile-menu::backdrop {
+    background: #00000080;
+  }
+  .menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-bar img {
+    width: 180px;
+    height: 48px;
+    object-fit: contain;
+  }
+  .mobile-menu nav {
+    display: grid;
+    gap: 24px;
+    margin-block: 80px;
+  }
+  .mobile-menu nav a {
+    font-family: var(--font-display);
+    font-size: var(--text-4xl);
+    line-height: var(--text-4xl--line-height);
+    font-weight: 700;
+  }
+  .mobile-menu nav a:hover {
+    color: var(--color-lima);
+  }
+  .mobile-menu[open] nav a {
+    animation: menu-reveal 800ms var(--fluid) both;
+    animation-delay: calc(100ms + var(--link-order) * 50ms);
+  }
+  .mobile-menu p {
+    font-size: var(--text-sm);
+  }
+  @keyframes menu-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(48px);
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      clip-path: inset(0);
+    }
+  }
+  @media (max-width: 767px) {
+    .island-nav {
+      width: 100%;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .desktop-links {
+      gap: 0;
+    }
+    .island-nav:has(.menu-toggle:not([hidden])) .desktop-links {
+      display: none;
+    }
+    .island-nav:has(.menu-toggle[hidden]) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+</style>

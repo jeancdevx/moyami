@@ -1,0 +1,125 @@
+---
+import { site } from '@/config/site'
+
+import Icon from '@/components/Icon'
+
+import logo from '@/assets/brand/svg/moyami-compacto-inverso.svg'
+---
+
+<footer class='site-footer'>
+  <div class='page-width'>
+    <div class='footer-cta' data-reveal>
+      <div>
+        <p class='eyebrow mb-4'>Lo de siempre puede esperar.</p>
+        <h2>
+          ¿Abrimos algo
+          <br />
+          diferente?
+        </h2>
+      </div>
+      <a class='button button-lima' href='/#catalogo'>
+        Explorar catálogo
+        <Icon name='arrowRight' />
+      </a>
+    </div>
+    <div class='footer-brand'>
+      <a href='/' aria-label='Moyami, volver al inicio'>
+        <img
+          src={logo.src}
+          width='320'
+          height='120'
+          alt='Moyami, snacks y bebidas asiáticos'
+          loading='lazy'
+        />
+      </a>
+      <p>
+        {site.address}
+        <br />
+        {site.city}, {site.region}
+      </p>
+    </div>
+    <div class='footer-bottom'>
+      <p>© {new Date().getFullYear()} Moyami</p>
+      <nav aria-label='Información del sitio'>
+        <a href='/privacidad/'>Privacidad</a>
+        <a href='/condiciones/'>Condiciones de uso</a>
+        <a href='/#inicio'>Volver arriba</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<style>
+  .site-footer {
+    padding-top: 64px;
+    padding-bottom: 32px;
+    background: var(--color-carbon);
+    color: var(--color-tiza);
+  }
+  .footer-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom: 64px;
+  }
+  h2 {
+    font-size: var(--text-5xl);
+    line-height: var(--text-5xl--line-height);
+  }
+  .footer-brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+    padding-block: 32px;
+  }
+  .footer-brand img {
+    width: 256px;
+    height: auto;
+  }
+  .footer-brand > p {
+    color: #d5dacd;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+  }
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 24px;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    color: #d5dacd;
+  }
+  .footer-bottom nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .footer-bottom a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 700ms var(--fluid);
+  }
+  .footer-bottom a:hover {
+    color: var(--color-lima);
+  }
+  @media (min-width: 640px) {
+    h2 {
+      font-size: var(--text-6xl);
+      line-height: var(--text-6xl--line-height);
+    }
+  }
+  @media (min-width: 1024px) {
+    .site-footer {
+      padding-top: 96px;
+    }
+    h2 {
+      font-size: var(--text-7xl);
+      line-height: var(--text-7xl--line-height);
+    }
+  }
+</style>
