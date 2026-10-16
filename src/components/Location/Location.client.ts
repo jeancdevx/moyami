@@ -9,7 +9,7 @@ export function setupLocationMap() {
   let pending = false
   let disposed = false
   let controller: AbortController | undefined
-  const load = async () => {
+  const load = async (useRaster = false) => {
     if (pending || disposed) return
     pending = true
     controller = new AbortController()
@@ -23,11 +23,25 @@ export function setupLocationMap() {
     cleanup = undefined
     root.querySelector('[data-map-canvas]')?.replaceChildren()
     try {
-      if (!supportsVectorMap()) throw new Error('WebGL no está disponible.')
-      const { createLocationMap } = await import('./Location.map')
-      signal.throwIfAborted()
-      cleanup = await createLocationMap(root, signal, () => void load())
-      root.dataset.renderer = 'vector'
+      if (!useRaster && supportsVectorMap()) {
+        try {
+          const { createLocationMap } = await import('./Location.map')
+          signal.throwIfAborted()
+          cleanup = await createLocationMap(root, signal, () => void load(true))
+          root.dataset.renderer = 'vector'
+        } catch (cause) {
+          signal.throwIfAborted()
+          if (import.meta.env.DEV)
+            console.warn('Mapa vectorial: se usará el mapa alternativo.', cause)
+        }
+      }
+      if (!cleanup) {
+        root.querySelector('[data-map-canvas]')?.replaceChildren()
+        const { createRasterMap } = await import('./Location.raster')
+        signal.throwIfAborted()
+        cleanup = await createRasterMap(root, signal)
+        root.dataset.renderer = 'raster'
+      }
       if (disposed) cleanup()
       else {
         loading.hidden = true
