@@ -1,0 +1,21 @@
+{
+  "name": "Jin ramen mild",
+  "brand": "OTOKI",
+  "category": "ramen",
+  "flavor": "Mild",
+  "presentation": "Paquete de 120 g",
+  "description": "Jin ramen en su presentación mild.",
+  "order": 22,
+  "images": [
+    {
+      "src": "../../assets/products/otoki-jin-mild/frontal-1024.webp",
+      "alt": "Jin ramen mild, paquete de 120 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/otoki-jin-mild/tres-cuartos-1024.webp",
+      "alt": "Jin ramen mild, paquete de 120 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

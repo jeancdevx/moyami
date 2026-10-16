@@ -1,0 +1,21 @@
+{
+  "name": "Volcano carbonara",
+  "brand": "Paldo",
+  "category": "ramen",
+  "flavor": "Carbonara",
+  "presentation": "Paquete de 130 g",
+  "description": "Volcano Chicken Noodle en su versión carbonara.",
+  "order": 27,
+  "images": [
+    {
+      "src": "../../assets/products/paldo-volcano-carbonara/frontal-1024.webp",
+      "alt": "Volcano carbonara, paquete de 130 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/paldo-volcano-carbonara/tres-cuartos-1024.webp",
+      "alt": "Volcano carbonara, paquete de 130 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

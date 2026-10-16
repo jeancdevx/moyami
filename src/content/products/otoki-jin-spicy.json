@@ -1,0 +1,21 @@
+{
+  "name": "Jin ramen spicy",
+  "brand": "OTOKI",
+  "category": "ramen",
+  "flavor": "Picante",
+  "presentation": "Paquete de 120 g",
+  "description": "Jin ramen en su presentación spicy.",
+  "order": 20,
+  "images": [
+    {
+      "src": "../../assets/products/otoki-jin-spicy/frontal-1024.webp",
+      "alt": "Jin ramen spicy, paquete de 120 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/otoki-jin-spicy/tres-cuartos-1024.webp",
+      "alt": "Jin ramen spicy, paquete de 120 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

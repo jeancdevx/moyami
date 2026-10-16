@@ -1,0 +1,12 @@
+{
+  "id": "baixiang-hot-chicken-frontal",
+  "productId": "baixiang-hot-chicken",
+  "angle": "frontal",
+  "source": "resources/catalog/originals/baixiang-hot-chicken-01.jpeg",
+  "output": "resources/catalog/masters/baixiang-hot-chicken-frontal.png",
+  "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Classic Hot Chicken, Baixiang, Pollo picante, Paquete de 112 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces.",
+  "tool": "image_gen",
+  "generatedPath": "/home/jeancdevx/.codex/generated_images/01a141a3-b5f7-7aa3-9ea5-1207e9197f51/exec-2a5d0dcc-788f-4b65-880d-3f8e4000dc6d.png",
+  "review": "accepted",
+  "reviewNotes": "Revisión visual frente a la referencia: identidad, variante, color, formato, unidad aislada y encuadre. La vista sintética no se usa como evidencia de datos del producto. Los detalles pequeños del empaque deben comprobarse en el producto físico."
+}

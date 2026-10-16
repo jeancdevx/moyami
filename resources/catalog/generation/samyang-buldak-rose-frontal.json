@@ -1,0 +1,17 @@
+{
+  "id": "samyang-buldak-rose-frontal",
+  "productId": "samyang-buldak-rose",
+  "angle": "frontal",
+  "source": "resources/catalog/originals/samyang-buldak-rose-01.jpeg",
+  "output": "resources/catalog/masters/samyang-buldak-rose-frontal.png",
+  "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak rosé, Samyang, Rosé, Paquete. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces.",
+  "tool": "image_gen",
+  "generatedPath": "/home/jeancdevx/.codex/generated_images/01a141a3-b5f7-7aa3-9ea5-1207e9197f51/exec-8a43d135-788c-42bf-ae75-371b63455c80.png",
+  "review": "accepted",
+  "reviewNotes": "Revisión visual frente a la referencia: identidad, variante, color, formato, unidad aislada y encuadre. La vista sintética no se usa como evidencia de datos del producto. Los detalles pequeños del empaque deben comprobarse en el producto físico. Se regeneró y verificó la inscripción Buldak Spicy Level.",
+  "previousAttempt": {
+    "generatedPath": "/home/jeancdevx/.codex/generated_images/01a141a3-b5f7-7aa3-9ea5-1207e9197f51/exec-e5d30f3d-3480-4afe-8ebe-7fb2032b22e6.png",
+    "reason": "La escala decía Fire Level en lugar de Spicy Level; resultado descartado."
+  },
+  "revisionPrompt": "Use case: precise-object-edit. Image 1 is the authoritative real product reference. Image 2 is an existing retouched front catalog image that needs ONE correction. Produce the same square isolated front product photo as Image 2, with pure white background, one complete Samyang Rosé pink noodle packet, soft studio light and soft contact shadow. Correct the bottom right black heat scale label to the exact English text visible in Image 1: Buldak Spicy Level. It must NOT say Buldak Fire Level. Preserve the original documented scale graphics from Image 1. Match ALL other front text and artwork to Image 1: Samyang logo, Korean product name, Rosé in green, character, pink material and noodle picture. Keep the real packaging proportions and front face. Do not invent ingredients, weights, Korean wording or new marketing claims; preserve photographed details directly. Do not add props or loose food. Keep generous margins and full package within 1024x1024 square."
+}

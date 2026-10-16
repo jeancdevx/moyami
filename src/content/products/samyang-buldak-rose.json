@@ -1,0 +1,21 @@
+{
+  "name": "Buldak rosé",
+  "brand": "Samyang",
+  "category": "ramen",
+  "flavor": "Rosé",
+  "presentation": "Paquete",
+  "description": "Fideos instantáneos Samyang en su versión rosé.",
+  "order": 28,
+  "images": [
+    {
+      "src": "../../assets/products/samyang-buldak-rose/frontal-1024.webp",
+      "alt": "Buldak rosé, paquete, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/samyang-buldak-rose/tres-cuartos-1024.webp",
+      "alt": "Buldak rosé, paquete, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

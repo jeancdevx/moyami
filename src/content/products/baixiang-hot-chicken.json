@@ -1,0 +1,21 @@
+{
+  "name": "Classic Hot Chicken",
+  "brand": "Baixiang",
+  "category": "ramen",
+  "flavor": "Pollo picante",
+  "presentation": "Paquete de 112 g",
+  "description": "Fideos instantáneos sabor pollo picante de Baixiang.",
+  "order": 24,
+  "images": [
+    {
+      "src": "../../assets/products/baixiang-hot-chicken/frontal-1024.webp",
+      "alt": "Classic Hot Chicken, paquete de 112 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/baixiang-hot-chicken/tres-cuartos-1024.webp",
+      "alt": "Classic Hot Chicken, paquete de 112 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

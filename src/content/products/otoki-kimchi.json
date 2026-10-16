@@ -1,0 +1,21 @@
+{
+  "name": "Kimchi ramen",
+  "brand": "OTOKI",
+  "category": "ramen",
+  "flavor": "Kimchi",
+  "presentation": "Paquete de 120 g",
+  "description": "Fideos instantáneos estilo coreano sabor kimchi.",
+  "order": 23,
+  "images": [
+    {
+      "src": "../../assets/products/otoki-kimchi/frontal-1024.webp",
+      "alt": "Kimchi ramen, paquete de 120 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/otoki-kimchi/tres-cuartos-1024.webp",
+      "alt": "Kimchi ramen, paquete de 120 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Shin Ramyun",
+  "brand": "Nongshim",
+  "category": "ramen",
+  "flavor": "Original",
+  "presentation": "Paquete de 120 g",
+  "description": "Shin Ramyun en su empaque rojo.",
+  "order": 21,
+  "images": [
+    {
+      "src": "../../assets/products/nongshim-shin-ramyun/frontal-1024.webp",
+      "alt": "Shin Ramyun, paquete de 120 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/nongshim-shin-ramyun/tres-cuartos-1024.webp",
+      "alt": "Shin Ramyun, paquete de 120 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

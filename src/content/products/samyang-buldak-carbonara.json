@@ -1,0 +1,21 @@
+{
+  "name": "Buldak carbonara",
+  "brand": "Samyang",
+  "category": "ramen",
+  "flavor": "Carbonara",
+  "presentation": "Paquete de 130 g",
+  "description": "Fideos instantáneos Samyang en su versión carbonara.",
+  "order": 25,
+  "images": [
+    {
+      "src": "../../assets/products/samyang-buldak-carbonara/frontal-1024.webp",
+      "alt": "Buldak carbonara, paquete de 130 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/samyang-buldak-carbonara/tres-cuartos-1024.webp",
+      "alt": "Buldak carbonara, paquete de 130 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

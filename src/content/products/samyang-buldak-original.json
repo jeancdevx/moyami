@@ -1,0 +1,21 @@
+{
+  "name": "Buldak original",
+  "brand": "Samyang",
+  "category": "ramen",
+  "flavor": "Original",
+  "presentation": "Paquete de 140 g",
+  "description": "La presentación original de Buldak de Samyang.",
+  "order": 26,
+  "images": [
+    {
+      "src": "../../assets/products/samyang-buldak-original/frontal-1024.webp",
+      "alt": "Buldak original, paquete de 140 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/samyang-buldak-original/tres-cuartos-1024.webp",
+      "alt": "Buldak original, paquete de 140 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}
