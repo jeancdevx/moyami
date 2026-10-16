@@ -1,0 +1,298 @@
+---
+import { site } from '@/config/site'
+
+import Icon from '@/components/Icon'
+---
+
+<section
+  id='ubicacion'
+  class='location section-space'
+  aria-labelledby='location-title'
+>
+  <div class='page-width location-layout'>
+    <div class='location-copy' data-reveal>
+      <p class='eyebrow mb-4'>Un pequeño rincón de Asia en Caraz</p>
+      <h2 class='section-title' id='location-title'>
+        Tu próxima
+        <br />
+        parada: Moyami.
+      </h2>
+      <p class='location-description'>
+        Ven por algo que ya te encanta.
+        <br />
+        Vuelve con algo que no conocías.
+      </p>
+      <div class='location-address'>
+        <span>
+          <Icon name='mapPin' />
+        </span>
+        <div>
+          <h3>{site.address}</h3>
+          <p>
+            {site.city}, {site.region}
+          </p>
+          <p class='location-reference'>{site.locationReference}</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class='location-map-frame'
+      data-location-map
+      data-longitude={site.location.longitude}
+      data-latitude={site.location.latitude}
+    >
+      <div class='map-skeleton' data-map-loading aria-hidden='true'>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div>
+          <Icon name='mapPin' />
+        </div>
+      </div>
+      <div
+        class='map-canvas'
+        data-map-canvas
+        role='region'
+        aria-label={`Mapa de Moyami en ${site.address}, Caraz`}
+      ></div>
+      <div class='map-controls' data-map-controls hidden>
+        <button
+          type='button'
+          class='icon-button'
+          aria-label='Acercar mapa'
+          data-map-zoom='in'
+        >
+          <Icon name='plus' />
+        </button>
+        <button
+          type='button'
+          class='icon-button'
+          aria-label='Alejar mapa'
+          data-map-zoom='out'
+        >
+          <Icon name='minus' />
+        </button>
+      </div>
+      <div class='map-caption'>
+        <span class='map-status-dot'></span>
+        <div>
+          <strong>Moyami</strong>
+          <span>{site.address}, Caraz</span>
+        </div>
+      </div>
+      <div class='map-error' data-map-error hidden>
+        <Icon name='mapPin' />
+        <p>El mapa no pudo cargarse.</p>
+        <span>Encuéntranos en {site.address}, Caraz.</span>
+        <button type='button' class='button button-outline' data-map-retry>
+          Volver a cargar el mapa
+        </button>
+      </div>
+      <noscript>
+        <div class='map-no-script'>
+          <Icon name='mapPin' />
+          <p>
+            {site.address}
+            <br />
+            Caraz, Áncash
+          </p>
+          <span>Activa JavaScript para explorar el mapa.</span>
+        </div>
+      </noscript>
+    </div>
+  </div>
+</section>
+<script>
+  import { setupLocationMap } from './Location.client'
+  setupLocationMap()
+</script>
+<style>
+  .location {
+    background: #eeefe7;
+  }
+  .location-layout {
+    display: grid;
+    gap: 40px;
+    align-items: center;
+  }
+  .location-description {
+    margin-top: 24px;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+    color: #50594f;
+  }
+  .location-address {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  .location-address > span {
+    display: flex;
+    padding: 12px;
+    background: var(--color-lima);
+    border-radius: 9999px;
+  }
+  .location-address h3 {
+    font-size: var(--text-xl);
+    line-height: var(--text-xl--line-height);
+    font-weight: 700;
+  }
+  .location-address p {
+    margin-top: 4px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+  }
+  .location-reference {
+    color: #50594f;
+  }
+  .location-map-frame {
+    position: relative;
+    height: 400px;
+    min-width: 0;
+    background: var(--color-tiza);
+    border: 1px solid #18201a26;
+    border-radius: 24px;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .map-canvas {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    isolation: isolate;
+  }
+  .map-skeleton {
+    position: absolute;
+    inset: 0;
+    background: #e4e9dc;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .map-skeleton > span {
+    position: absolute;
+    width: 160%;
+    height: 32px;
+    background: var(--color-tiza);
+    transform: rotate(-35deg);
+    left: -96px;
+    top: 96px;
+  }
+  .map-skeleton > span:nth-child(2) {
+    top: 256px;
+  }
+  .map-skeleton > span:nth-child(3) {
+    transform: rotate(50deg);
+    top: 160px;
+  }
+  .map-skeleton > div {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+  }
+  .map-skeleton .icon {
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    background: var(--color-lila);
+    border-radius: 9999px;
+  }
+  .map-controls {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: grid;
+    gap: 8px;
+    z-index: 1;
+  }
+  .map-caption {
+    position: absolute;
+    left: 16px;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: white;
+    border: 1px solid #18201a26;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px #18201a0d;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .map-caption strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+  }
+  .map-caption div > span {
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+  }
+  .map-status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 9999px;
+    background: var(--color-lila);
+  }
+  .map-error,
+  .map-no-script {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 32px;
+    text-align: center;
+    background: var(--color-tiza);
+    z-index: 2;
+  }
+  .map-error .icon,
+  .map-no-script .icon {
+    width: 40px;
+    height: 40px;
+    color: #6848b4;
+  }
+  .map-error > p {
+    font-weight: 600;
+  }
+  .map-error > span,
+  .map-no-script > span {
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+  }
+  .map-error .button {
+    margin-top: 12px;
+  }
+  .location-map-frame :global(.moyami-marker) {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    background: var(--color-carbon);
+    border: 4px solid var(--color-lima);
+    border-radius: 9999px;
+    box-shadow: 0 4px 16px #18201a40;
+  }
+  .location-map-frame :global(.moyami-marker img) {
+    width: 28px;
+    height: 28px;
+  }
+  .location-map-frame :global(.maplibregl-ctrl-attrib) {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+  }
+  @media (min-width: 1024px) {
+    .location-layout {
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 64px;
+    }
+    .location-map-frame {
+      height: 480px;
+    }
+  }
+</style>
