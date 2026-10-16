@@ -1,24 +1,74 @@
-# build output
+# Build output and caches
 dist/
-
-# generated types
+.output/
 .astro/
+.cache/
+*.tsbuildinfo
 
 # dependencies
 node_modules/
+.pnpm-store/
 
 # logs
+*.log
+logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+report.*.json
+*.cpuprofile
+*.heapprofile
+*.heapsnapshot
 
-# environment variables
-.env
-.env.production
+# Environment variables and local credentials
+.env*
+!.env.example
+.npmrc.local
+.aws/
+.ssh/
+.git-credentials
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Vercel local project metadata and build output
+.vercel/
 
 # macOS-specific files
 .DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+.history/
+/tmp/
+/temp/
 
 # jetbrains setting folder
 .idea/
+*.code-workspace
+.vscode/*.local.json
+
+# skills
+.agents/
+.codex/
+skills-lock.json
+
+# browser verification artifacts
+test-results/
+playwright-report/
+coverage/
+.nyc_output/
+playwright/.cache/
+
+# Original brand delivery; the project's copies remain versioned
+/moyami-identidad/
+
+# Husky-generated launchers; keep the actual hooks
+.husky/_/
