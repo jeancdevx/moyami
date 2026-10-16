@@ -1,0 +1,88 @@
+---
+import Icon from '@/components/Icon'
+const lines = [
+  ['Un', 'sabor', 'nuevo.'],
+  ['Un', 'antojo', 'muy', 'tuyo.']
+]
+let wordOrder = 0
+---
+
+<section
+  class='tagline section-space'
+  aria-label='Un sabor nuevo. Un antojo muy tuyo.'
+>
+  <div class='page-width tagline-inner'>
+    <Icon name='sparkles' />
+    <h2>
+      {lines.map(line => (
+        <span class='tagline-line'>
+          {line.map(word => (
+            <>
+              <span data-reveal-word style={`--word-order: ${wordOrder++}`}>
+                {word}
+              </span>{' '}
+            </>
+          ))}
+        </span>
+      ))}
+    </h2>
+    <p>
+      A veces, salir de lo de siempre
+      <br />
+      empieza abriendo un snack.
+    </p>
+  </div>
+</section>
+<style>
+  .tagline {
+    background: var(--color-carbon);
+    color: var(--color-tiza);
+    text-align: center;
+  }
+  .tagline-inner {
+    display: grid;
+    justify-items: center;
+    gap: 32px;
+  }
+  .tagline-inner > .icon {
+    width: 48px;
+    height: 48px;
+    color: var(--color-lima);
+  }
+  h2 {
+    font-size: var(--text-4xl);
+    line-height: var(--text-4xl--line-height);
+    max-width: 680px;
+  }
+  .tagline-line {
+    display: block;
+  }
+  [data-reveal-word] {
+    display: inline-block;
+    transition: color 900ms var(--fluid);
+    transition-delay: calc(var(--word-order) * 50ms);
+  }
+  .tagline-inner:global(.word-enhanced) [data-reveal-word] {
+    color: #f7f8f259;
+  }
+  .tagline-inner:global(.word-enhanced)
+    :global([data-reveal-word].word-active) {
+    color: var(--color-tiza);
+  }
+  p {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    color: #d5dacd;
+  }
+  @media (min-width: 640px) {
+    h2 {
+      font-size: var(--text-6xl);
+      line-height: var(--text-6xl--line-height);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal-word] {
+      color: var(--color-tiza) !important;
+    }
+  }
+</style>

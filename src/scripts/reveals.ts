@@ -21,10 +21,28 @@ export function setupReveals() {
     element.classList.add('reveal', 'is-waiting')
     observer.observe(element)
   })
+  const words = document.querySelectorAll<HTMLElement>('[data-reveal-word]')
+  const wordObservers: IntersectionObserver[] = []
+  words.forEach((word, index) => {
+    word.closest('.tagline-inner')?.classList.add('word-enhanced')
+    const wordObserver = new IntersectionObserver(
+      entries => {
+        for (const entry of entries)
+          entry.target.classList.toggle(
+            'word-active',
+            entry.isIntersecting || entry.boundingClientRect.top < 0
+          )
+      },
+      { rootMargin: `0px 0px -${30 + index * 4}% 0px`, threshold: 1 }
+    )
+    wordObserver.observe(word)
+    wordObservers.push(wordObserver)
+  })
   window.addEventListener(
     'pagehide',
     () => {
       observer.disconnect()
+      wordObservers.forEach(item => item.disconnect())
     },
     { once: true }
   )
