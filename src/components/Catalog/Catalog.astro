@@ -1,0 +1,256 @@
+---
+import { Image } from 'astro:assets'
+import { getCollection } from 'astro:content'
+
+import Icon from '@/components/Icon'
+
+const products = (await getCollection('products')).sort(
+  (a, b) => a.data.order - b.data.order
+)
+const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
+---
+
+<section
+  id='catalogo'
+  class='section-space catalog'
+  aria-labelledby='catalog-title'
+  data-catalog
+>
+  <div class='page-width'>
+    <div class='catalog-heading' data-reveal>
+      <div>
+        <p class='eyebrow mb-4'>Elige tu próxima curiosidad</p>
+        <h2 id='catalog-title' class='section-title'>
+          ¿Qué se te antoja?
+        </h2>
+      </div>
+      <p class='muted'>
+        Del primer sorbo al último fideo.
+        <br />
+        Hay mucho por descubrir.
+      </p>
+    </div>
+    <div class='catalog-meta'>
+      <p data-catalog-count role='status' aria-live='polite' aria-atomic='true'>
+        {products.length} productos para descubrir
+      </p>
+      <span>Precios y disponibilidad en tienda</span>
+    </div>
+    <div class='product-grid' data-product-grid>
+      {products.map(product => (
+        <article
+          class='product-card'
+          data-product-card
+          data-product-category={product.data.category}
+          data-search-text={`${product.data.name} ${product.data.brand} ${product.data.flavor || ''} ${product.data.presentation || ''}`}
+        >
+          <a
+            href={`/productos/${product.id}/`}
+            class='product-link'
+            data-product-open={product.id}
+            aria-label={`Ver ${product.data.name}`}
+          >
+            <div class='product-card-heading'>
+              <p class='product-brand'>{product.data.brand}</p>
+              <span class='product-category'>
+                {categoryLabels[product.data.category]}
+              </span>
+            </div>
+            <div class='product-image'>
+              <Image
+                src={product.data.images[0].src}
+                alt={product.data.images[0].alt}
+                width={1024}
+                height={1024}
+                widths={[256, 512, 768, 1024]}
+                sizes='(max-width: 639px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), 296px'
+                format='webp'
+                quality={87}
+                loading='lazy'
+              />
+            </div>
+            <div class='product-copy'>
+              <h3>{product.data.name}</h3>
+              <p class='product-presentation'>{product.data.presentation}</p>
+            </div>
+            <div class='product-card-footer' aria-hidden='true'>
+              <span>Ver producto</span>
+              <span class='product-open-icon'>
+                <Icon name='arrowUpRight' />
+              </span>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+  .catalog {
+    background: #eeefe7;
+  }
+  .catalog-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }
+  .catalog-heading > p {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+  .catalog-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    color: #50594f;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .product-card {
+    min-width: 0;
+  }
+  .product-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #18201a1f;
+    border-radius: 8px;
+    transition:
+      border-color 700ms var(--fluid),
+      box-shadow 700ms var(--fluid),
+      transform 700ms var(--fluid);
+  }
+  .product-link:hover,
+  .product-link:focus-visible {
+    border-color: #18201a66;
+    box-shadow: 0 8px 24px #18201a0d;
+    transform: translateY(-4px);
+  }
+  .product-link:active {
+    transform: translateY(0) scale(0.98);
+  }
+  .product-card-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .product-category {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #eeefe7;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    font-weight: 600;
+  }
+  [data-product-category='bebidas'] .product-category {
+    background: #ede7fb;
+  }
+  [data-product-category='ramen'] .product-category {
+    background: #eaf6ce;
+  }
+  .product-image {
+    display: grid;
+    place-items: center;
+    padding: 16px 8px;
+    background: white;
+    overflow: hidden;
+    aspect-ratio: 1;
+  }
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 700ms var(--fluid);
+  }
+  .product-link:hover .product-image img {
+    transform: scale(1.045);
+  }
+  .product-link:active .product-image img {
+    transform: scale(0.98);
+  }
+  .product-open-icon {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: #eeefe7;
+    transition:
+      background-color 700ms var(--fluid),
+      transform 700ms var(--fluid);
+  }
+  .product-open-icon .icon {
+    width: 16px;
+    height: 16px;
+  }
+  .product-link:hover .product-open-icon {
+    background: var(--color-lima);
+    transform: translate(2px, -2px);
+  }
+  .product-copy {
+    flex: 1;
+    padding-block: 8px 16px;
+  }
+  .product-brand {
+    color: #50594f;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    overflow-wrap: anywhere;
+  }
+  h3 {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+  .product-presentation {
+    margin-top: 4px;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    color: #50594f;
+  }
+  .product-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    font-weight: 600;
+  }
+  @media (min-width: 640px) {
+    .product-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+    .product-link {
+      padding: 16px;
+    }
+    .product-image {
+      padding: 24px 16px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .product-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    h3 {
+      font-size: var(--text-lg);
+      line-height: var(--text-lg--line-height);
+    }
+  }
+</style>
