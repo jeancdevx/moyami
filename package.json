@@ -17,6 +17,7 @@
     "format:check": "oxfmt --check .",
     "assets:build": "node scripts/build-assets.mjs",
     "audit:check": "node scripts/check-catalog.mjs",
+    "test": "node --test tests/unit/*.test.ts",
     "lint:staged": "lint-staged",
     "commitlint": "commitlint"
   },

@@ -7,6 +7,12 @@ import Icon from '@/components/Icon'
 const products = (await getCollection('products')).sort(
   (a, b) => a.data.order - b.data.order
 )
+const categories = [
+  { id: 'todos', label: 'Todo el catálogo', icon: 'sparkles' },
+  { id: 'snacks', label: 'Snacks', icon: 'cookie' },
+  { id: 'bebidas', label: 'Bebidas', icon: 'drink' },
+  { id: 'ramen', label: 'Ramen', icon: 'bowl' }
+] as const
 const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
 ---
 
@@ -29,6 +35,40 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
         <br />
         Hay mucho por descubrir.
       </p>
+    </div>
+    <div class='catalog-tools' data-catalog-tools hidden>
+      <div
+        class='category-filters'
+        role='group'
+        aria-label='Filtrar por categoría'
+      >
+        {categories.map(category => (
+          <button
+            type='button'
+            data-category={category.id}
+            aria-pressed={category.id === 'todos' ? 'true' : 'false'}
+          >
+            <Icon name={category.icon} />
+            {category.label}
+            <span>
+              {category.id === 'todos'
+                ? products.length
+                : products.filter(p => p.data.category === category.id).length}
+            </span>
+          </button>
+        ))}
+      </div>
+      <label class='search-field'>
+        <Icon name='magnifyingGlass' />
+        <span class='sr-only'>Buscar productos por nombre, marca o sabor</span>
+        <input
+          type='search'
+          placeholder='Busca tu antojo'
+          data-catalog-search
+          autocomplete='off'
+          maxlength='120'
+        />
+      </label>
     </div>
     <div class='catalog-meta'>
       <p data-catalog-count role='status' aria-live='polite' aria-atomic='true'>
@@ -83,8 +123,20 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
         </article>
       ))}
     </div>
+    <div class='catalog-empty' data-catalog-empty hidden>
+      <Icon name='magnifyingGlass' />
+      <h3>No encontramos ese antojo</h3>
+      <p>Prueba otro nombre o vuelve a explorar todas las categorías.</p>
+      <button type='button' class='button button-primary' data-catalog-clear>
+        Ver todo el catálogo
+      </button>
+    </div>
   </div>
 </section>
+<script>
+  import { setupCatalog } from './Catalog.client'
+  setupCatalog()
+</script>
 <style>
   .catalog {
     background: #eeefe7;
@@ -100,6 +152,83 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
   .catalog-heading > p {
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
+  }
+  .catalog-tools {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .category-filters button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid #18201a26;
+    background: transparent;
+    border-radius: 9999px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    font-weight: 600;
+    min-height: 48px;
+    transition:
+      background-color 700ms var(--fluid),
+      color 700ms var(--fluid),
+      transform 700ms var(--fluid);
+  }
+  .category-filters button .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .category-filters button > span:last-child {
+    font-size: var(--text-xs);
+    opacity: 0.75;
+  }
+  .category-filters button[aria-pressed='true'] {
+    background: var(--color-carbon);
+    border-color: var(--color-carbon);
+    color: white;
+  }
+  .category-filters button:hover {
+    background: var(--color-lila);
+    color: var(--color-carbon);
+  }
+  .category-filters button:active {
+    transform: scale(0.98);
+  }
+  .search-field {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #18201a26;
+    border-radius: 9999px;
+    background: white;
+    min-width: 0;
+    width: 100%;
+  }
+  .search-field input {
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    outline-offset: 8px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+  }
+  .search-field:focus-within {
+    outline: 3px solid #6848b4;
+    outline-offset: 4px;
+  }
+  .search-field input:focus-visible {
+    outline: none;
   }
   .catalog-meta {
     display: flex;
@@ -232,6 +361,26 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
     line-height: var(--text-xs--line-height);
     font-weight: 600;
   }
+  .catalog-empty {
+    max-width: 480px;
+    margin-inline: auto;
+    text-align: center;
+    padding-block: 64px;
+  }
+  .catalog-empty > .icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+    color: #6848b4;
+  }
+  .catalog-empty h3 {
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    margin-bottom: 12px;
+  }
+  .catalog-empty p {
+    margin-bottom: 24px;
+  }
   @media (min-width: 640px) {
     .product-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -242,6 +391,9 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
     }
     .product-image {
       padding: 24px 16px;
+    }
+    .search-field {
+      width: 256px;
     }
   }
   @media (min-width: 1024px) {
