@@ -1,0 +1,73 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "astro": true,
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "css",
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "sortImports": {
+    "order": "asc",
+    "ignoreCase": false,
+    "newlinesBetween": true,
+    "internalPattern": ["@/"],
+    "sortSideEffects": false,
+    "groups": [
+      ["builtin", "type-builtin"],
+      ["external", "type-external"],
+      "project-config",
+      "project-layouts",
+      "project-components",
+      "project-scripts",
+      "project-assets",
+      ["internal", "type-internal"],
+      [
+        "parent",
+        "sibling",
+        "index",
+        "type-parent",
+        "type-sibling",
+        "type-index"
+      ],
+      "style",
+      "unknown"
+    ],
+    "customGroups": [
+      { "groupName": "project-config", "elementNamePattern": ["@/config/**"] },
+      {
+        "groupName": "project-layouts",
+        "elementNamePattern": ["@/layouts/**"]
+      },
+      {
+        "groupName": "project-components",
+        "elementNamePattern": ["@/components/**"]
+      },
+      {
+        "groupName": "project-scripts",
+        "elementNamePattern": ["@/scripts/**"]
+      },
+      { "groupName": "project-assets", "elementNamePattern": ["@/assets/**"] }
+    ]
+  },
+  "sortTailwindcss": { "stylesheet": "./src/styles/global.css" },
+  "ignorePatterns": [
+    "moyami-identidad/**",
+    "resources/**",
+    "docs/brand/**",
+    "src/assets/**",
+    "public/**",
+    "dist/**",
+    ".astro/**",
+    "pnpm-lock.yaml",
+    "AGENTS.md",
+    "test-results/**",
+    "playwright-report/**"
+  ]
+}
