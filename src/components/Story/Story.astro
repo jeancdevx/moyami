@@ -1,0 +1,73 @@
+---
+import Icon from '@/components/Icon'
+const benefits = [
+  {
+    icon: 'bowl',
+    title: 'Un antojo, muchas posibilidades',
+    body: 'Bebidas, snacks y ramen para seguir tu curiosidad.'
+  },
+  {
+    icon: 'magnifyingGlass',
+    title: 'Encuentra tu siguiente favorito',
+    body: 'Explora por nombre, categoría o sabor.'
+  },
+  {
+    icon: 'mapPin',
+    title: 'Nos vemos en Caraz',
+    body: 'Conoce cada presentación antes de venir.'
+  }
+] as const
+---
+
+<section class='benefits' aria-label='Descubre Moyami'>
+  <div class='page-width benefits-grid'>
+    {benefits.map(benefit => (
+      <div class='benefit' data-reveal>
+        <span class='benefit-icon'>
+          <Icon name={benefit.icon} />
+        </span>
+        <div>
+          <h2>{benefit.title}</h2>
+          <p>{benefit.body}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+<style>
+  .benefits {
+    background: var(--color-lila);
+    padding-block: 32px;
+  }
+  .benefits-grid {
+    display: grid;
+    gap: 32px;
+  }
+  .benefit {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .benefit-icon {
+    display: flex;
+    padding: 12px;
+    border: 1px solid #18201a33;
+    border-radius: 9999px;
+  }
+  .benefit h2 {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .benefit p {
+    margin-top: 4px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+  }
+  @media (min-width: 1024px) {
+    .benefits-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

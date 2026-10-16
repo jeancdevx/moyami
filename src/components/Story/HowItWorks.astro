@@ -1,0 +1,98 @@
+---
+import Icon from '@/components/Icon'
+const steps = [
+  {
+    title: 'Sigue tu curiosidad',
+    text: 'Bebidas, algo dulce o ramen. Empieza por lo que hoy se te antoje.',
+    icon: 'magnifyingGlass'
+  },
+  {
+    title: 'Conoce tu elección',
+    text: 'Abre una ficha para ver el sabor, la presentación y sus imágenes.',
+    icon: 'cookie'
+  },
+  {
+    title: 'Pasa por Moyami',
+    text: 'Te esperamos en Jr. San Martín 316, dentro de Tienda Milagros de Huata.',
+    icon: 'mapPin'
+  }
+] as const
+---
+
+<section
+  class='section-space page-width how-it-works'
+  aria-labelledby='how-title'
+>
+  <div class='how-heading' data-reveal>
+    <p class='eyebrow mb-4'>De la curiosidad al antojo</p>
+    <h2 class='section-title' id='how-title'>
+      Descubrirlo es
+      <br />
+      la mejor parte.
+    </h2>
+  </div>
+  <ol>
+    {steps.map((step, index) => (
+      <li data-reveal>
+        <div class='step-top'>
+          <span>0{index + 1}</span>
+          <Icon name={step.icon} />
+        </div>
+        <h3>{step.title}</h3>
+        <p>{step.text}</p>
+      </li>
+    ))}
+  </ol>
+</section>
+<style>
+  .how-heading {
+    margin-bottom: 40px;
+  }
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  li {
+    padding: 24px;
+    border: 1px solid #18201a26;
+    border-radius: 16px;
+  }
+  li:nth-child(2) {
+    background: var(--color-lima);
+    border-color: transparent;
+  }
+  .step-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .step-top > span {
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+  h3 {
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+  li p {
+    margin-top: 12px;
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    color: #3e483d;
+  }
+  @media (min-width: 768px) {
+    ol {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    li {
+      padding: 32px;
+    }
+  }
+</style>

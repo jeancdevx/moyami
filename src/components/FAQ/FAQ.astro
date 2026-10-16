@@ -1,0 +1,107 @@
+---
+import Icon from '@/components/Icon'
+const questions = [
+  [
+    '¿Qué encuentro en Moyami?',
+    'Snacks, bebidas y ramen asiáticos. En el catálogo puedes explorar los sabores y las presentaciones de nuestro surtido.'
+  ],
+  [
+    '¿Puedo comprar desde esta web?',
+    'Esta web presenta nuestro catálogo y no procesa compras. Puedes visitar el punto de venta para conocer los productos.'
+  ],
+  [
+    '¿Dónde veo los precios?',
+    'Los precios se consultan directamente en el local de Jr. San Martín 316, Caraz.'
+  ],
+  [
+    '¿El catálogo confirma disponibilidad?',
+    'El catálogo muestra el surtido documentado. Confirma la disponibilidad de tu elección en el punto de venta.'
+  ],
+  [
+    '¿Dónde están?',
+    'Estamos en Jr. San Martín 316, Caraz, dentro de Tienda Milagros de Huata. Encontrarás el mapa más abajo.'
+  ],
+  [
+    '¿Cómo encuentro un producto?',
+    'Elige Snacks, Bebidas o Ramen en el catálogo, o busca por nombre, marca y sabor. Abre una ficha para ver más detalles.'
+  ]
+]
+---
+
+<section class='faq section-space page-width' aria-labelledby='faq-title'>
+  <div data-reveal>
+    <p class='eyebrow mb-4'>Antes de tu próxima visita</p>
+    <h2 id='faq-title' class='section-title'>
+      Por si te
+      <br />
+      lo preguntabas.
+    </h2>
+  </div>
+  <div class='faq-list' data-reveal>
+    {questions.map(([question, answer]) => (
+      <details>
+        <summary>
+          {question}
+          <span>
+            <Icon name='plus' />
+          </span>
+        </summary>
+        <p>{answer}</p>
+      </details>
+    ))}
+  </div>
+</section>
+<style>
+  .faq {
+    display: grid;
+    gap: 40px;
+  }
+  .faq-list {
+    display: grid;
+    gap: 12px;
+  }
+  details {
+    background: white;
+    border: 1px solid #18201a26;
+    border-radius: 16px;
+    transition: background-color 700ms var(--fluid);
+  }
+  details:hover {
+    background: #eeefe7;
+  }
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    padding: 24px;
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 600;
+    border-radius: 16px;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary > span {
+    display: flex;
+    flex: 0 0 auto;
+    transition: transform 700ms var(--fluid);
+  }
+  details[open] summary > span {
+    transform: rotate(45deg);
+  }
+  details p {
+    padding: 0 24px 24px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    color: #50594f;
+  }
+  @media (min-width: 1024px) {
+    .faq {
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 80px;
+    }
+  }
+</style>
