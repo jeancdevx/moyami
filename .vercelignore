@@ -1,0 +1,38 @@
+# Local output and tools
+.git/
+.vercel/
+.astro/
+.output/
+.cache/
+.pnpm-store/
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+.agents/
+.codex/
+.idea/
+.vscode/
+.husky/_/
+skills-lock.json
+
+# Local environment and credentials
+.env*
+!.env.example
+.aws/
+.ssh/
+.git-credentials
+.netrc
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Image masters are not build inputs. Keep originals and audit metadata.
+moyami-identidad/
+resources/catalog/masters/
+resources/catalog/rejected/
+resources/world/
