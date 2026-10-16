@@ -19,6 +19,9 @@
     "commitlint": "commitlint"
   },
   "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "@phosphor-icons/core": "2.1.1",
     "astro": "7.4.0"
   },
   "devDependencies": {
@@ -26,11 +29,13 @@
     "@astrojs/compiler-rs": "0.5.2",
     "@commitlint/cli": "21.2.3",
     "@commitlint/config-conventional": "21.2.3",
+    "@tailwindcss/vite": "4.3.3",
     "@types/node": "24.19.2",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
     "oxfmt": "0.73.0",
     "oxlint": "1.88.0",
+    "tailwindcss": "4.3.3",
     "typescript": "6.0.3"
   },
   "engines": {

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="logo-title"><title id="logo-title">Moyami: símbolo a una tinta</title><defs>
+      <mask id="mark-overlap" maskUnits="userSpaceOnUse" x="-30" y="-30" width="330" height="330">
+        <rect x="-30" y="-30" width="330" height="330" fill="white"/>
+        <g transform="rotate(-7 108 153)"><path d="M43 83 L65 91 L82 79 L102 91 L123 79 L144 91 L164 83 L177 219 L154 226 L133 217 L112 228 L92 217 L68 225 L46 218 Z" fill="black" stroke="black" stroke-width="11" stroke-linejoin="round"/></g>
+      </mask>
+      <mask id="mark-bite" maskUnits="userSpaceOnUse" x="65" y="130" width="90" height="80">
+        <rect x="65" y="130" width="90" height="80" fill="white"/>
+        <circle cx="127" cy="143" r="13" fill="black"/>
+      </mask>
+    </defs>
+    <g stroke="#18201A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <g mask="url(#mark-overlap)">
+        <g transform="rotate(12 192 136)">
+          <path d="M155 68 Q155 60 166 59 L219 59 Q231 60 231 72 L231 201 Q231 216 217 218 L170 218 Q155 216 155 201 Z" fill="none"/>
+          <ellipse cx="193" cy="65" rx="38" ry="10" fill="none"/>
+          <path d="M185 63 L201 63" fill="none" stroke-width="5"/>
+          <circle cx="196" cy="125" r="10" fill="none" stroke-width="7"/>
+          <circle cx="212" cy="151" r="5" fill="#18201A" stroke="none"/>
+          <path d="M195 178 L214 178" fill="none" stroke-width="7"/>
+        </g>
+      </g>
+      <g transform="rotate(-7 108 153)">
+        <path d="M43 83 L65 91 L82 79 L102 91 L123 79 L144 91 L164 83 L177 219 L154 226 L133 217 L112 228 L92 217 L68 225 L46 218 Z" fill="none"/>
+        <path d="M55 101 Q108 119 154 101" fill="none" stroke-width="8"/>
+        <path d="M58 201 L163 201" fill="none" stroke-width="6"/>
+        <g mask="url(#mark-bite)"><circle cx="108" cy="165" r="25" fill="none" stroke-width="7"/></g>
+        <circle cx="100" cy="160" r="3.6" fill="#18201A" stroke="none"/>
+        <circle cx="113" cy="176" r="3.6" fill="#18201A" stroke="none"/>
+      </g>
+      <path d="M83 20 L89 37 L106 43 L89 49 L83 66 L77 49 L60 43 L77 37 Z" fill="none" stroke-width="6"/>
+    </g></svg>
