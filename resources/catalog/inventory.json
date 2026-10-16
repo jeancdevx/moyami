@@ -1,0 +1,765 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "originalCount": 50,
+  "exactDuplicateCount": 0,
+  "productCount": 29,
+  "products": [
+    {
+      "id": "fruit-fun-arandano",
+      "name": "Fruit Fun Fruity arándano",
+      "brand": "Jiashili",
+      "category": "snacks",
+      "flavor": "Arándano",
+      "presentation": "Paquete individual",
+      "description": "Galletas rellenas sabor arándano.",
+      "order": 0,
+      "sources": [
+        {
+          "originalIndex": 1,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.56.jpeg",
+          "file": "resources/catalog/originals/fruit-fun-arandano-01.jpeg",
+          "sha256": "acf2f0a417e15b14b00f8a6ae1dd960018c388219275a7f92dd1ac7f55d32769",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 2,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.57.jpeg",
+          "file": "resources/catalog/originals/fruit-fun-arandano-02.jpeg",
+          "sha256": "32766aa6d6bf13f4291a8ffffbe91a4448a7bbe3ccc6c28f5bf8736983981c3b",
+          "role": "alternativa"
+        },
+        {
+          "originalIndex": 3,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.58.jpeg",
+          "file": "resources/catalog/originals/fruit-fun-arandano-03.jpeg",
+          "sha256": "7f476e4109565a31cb82488d901a687f65b72c92b380c1a050b59a703c076ea4",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Peso neto no legible."
+    },
+    {
+      "id": "orion-berry-pie",
+      "name": "Berry Pie",
+      "brand": "Orion",
+      "category": "snacks",
+      "flavor": "Fresa y frambuesa",
+      "presentation": "Caja de 6 unidades",
+      "description": "Pastelitos rellenos con sabores de frutos rojos.",
+      "order": 1,
+      "sources": [
+        {
+          "originalIndex": 4,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.59 (1).jpeg",
+          "file": "resources/catalog/originals/orion-berry-pie-01.jpeg",
+          "sha256": "1d2d11cb597a02b8518987b4cf2aae42a8d030e2d8d23220b01074d7d8ed2409",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Peso neto no visible."
+    },
+    {
+      "id": "sab-chocolate",
+      "name": "Sab chocolate",
+      "brand": "Sab",
+      "category": "snacks",
+      "flavor": "Chocolate",
+      "presentation": "Caja de 96 g",
+      "description": "Galletas rellenas en su versión de chocolate.",
+      "order": 2,
+      "sources": [
+        {
+          "originalIndex": 5,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.59 (2).jpeg",
+          "file": "resources/catalog/originals/sab-chocolate-01.jpeg",
+          "sha256": "c1975cd7251293b53eeec1f7dae18ecf5484a8b36ddd85a8baab2059b361245f",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 7,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.59.jpeg",
+          "file": "resources/catalog/originals/sab-chocolate-02.jpeg",
+          "sha256": "43b5cae9e7b6c5337c4aa354ec91bb5dfcf0508095fc9deb8965d82324edb197",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "orion-cocoa-pie",
+      "name": "Cocoa Pie",
+      "brand": "Orion",
+      "category": "snacks",
+      "flavor": "Chocolate",
+      "presentation": "Caja de 6 unidades",
+      "description": "Pastelitos con cobertura sabor chocolate.",
+      "order": 3,
+      "sources": [
+        {
+          "originalIndex": 6,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.30.59 (3).jpeg",
+          "file": "resources/catalog/originals/orion-cocoa-pie-01.jpeg",
+          "sha256": "04ccd4bbdf749cba9b1189867a20774fd12d488cdf189df9bd5ce81eaa19ae21",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Peso neto no visible."
+    },
+    {
+      "id": "vina-yogur",
+      "name": "VINA tres capas",
+      "brand": "VINA",
+      "category": "snacks",
+      "flavor": "Yogur",
+      "presentation": "Caja de 100 g",
+      "description": "Bocaditos de galleta con relleno sabor yogur.",
+      "order": 4,
+      "sources": [
+        {
+          "originalIndex": 8,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.00.jpeg",
+          "file": "resources/catalog/originals/vina-yogur-01.jpeg",
+          "sha256": "ddf538179e4fe42e54e5a9de0c51bbc161165cd07fd6dfc98c2f6d87b1554049",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 9,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.01.jpeg",
+          "file": "resources/catalog/originals/vina-yogur-02.jpeg",
+          "sha256": "0b21d2abba8f401f6eca121d22e5e59d4dc689f7c10cfc0fde83050dee6af770",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "sab-matcha",
+      "name": "Sab matcha",
+      "brand": "Sab",
+      "category": "snacks",
+      "flavor": "Matcha",
+      "presentation": "Caja de 96 g",
+      "description": "Galletas rellenas en su versión de té matcha.",
+      "order": 5,
+      "sources": [
+        {
+          "originalIndex": 10,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.02 (1).jpeg",
+          "file": "resources/catalog/originals/sab-matcha-01.jpeg",
+          "sha256": "a10a89c58722337ae1ebc2da1f811e7615a010e4ad52a76118cb329a74c86bf0",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 11,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.02 (2).jpeg",
+          "file": "resources/catalog/originals/sab-matcha-02.jpeg",
+          "sha256": "23bc50820e3ef34850d3adba3bd3bb68349c0b447e1790fe30b056e27963bb96",
+          "role": "alternativa"
+        },
+        {
+          "originalIndex": 12,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.02.jpeg",
+          "file": "resources/catalog/originals/sab-matcha-03.jpeg",
+          "sha256": "31fe037cd734679ad4e13cdc7580cd1561de652af3aed9f4325c9931cd17cebb",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "ice-talk-uva-verde",
+      "name": "Ice Talk uva verde",
+      "brand": "Ice Talk",
+      "category": "bebidas",
+      "flavor": "Uva verde",
+      "presentation": "Pouch de 230 ml",
+      "description": "Green Grape Ade en un práctico pouch.",
+      "order": 6,
+      "sources": [
+        {
+          "originalIndex": 13,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.08.jpeg",
+          "file": "resources/catalog/originals/ice-talk-uva-verde-01.jpeg",
+          "sha256": "6c72b0788495fd4e31b45c12c359058d377ffbaffb95bb3c560b957c124f19c1",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "rico-bubble-tea-matcha",
+      "name": "Bubble Milk Tea matcha",
+      "brand": "Rico",
+      "category": "bebidas",
+      "flavor": "Matcha",
+      "presentation": "Lata de 350 g",
+      "description": "Té con leche sabor matcha y perlas, en lata.",
+      "order": 7,
+      "sources": [
+        {
+          "originalIndex": 14,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.09 (1).jpeg",
+          "file": "resources/catalog/originals/rico-bubble-tea-matcha-01.jpeg",
+          "sha256": "800575c02e06539e2f7d40c116e13b15272e3332db6969977f28d781e9c80475",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Se conserva la unidad de masa impresa: 350 g, no 350 ml."
+    },
+    {
+      "id": "rico-grape",
+      "name": "Rico Grape",
+      "brand": "Rico",
+      "category": "bebidas",
+      "flavor": "Uva",
+      "presentation": "Lata",
+      "description": "La versión de uva de Rico, en su lata morada.",
+      "order": 8,
+      "sources": [
+        {
+          "originalIndex": 15,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.09 (2).jpeg",
+          "file": "resources/catalog/originals/rico-grape-01.jpeg",
+          "sha256": "3fe9c2dda43cd2bea17b9741761934e4023281937a165aea4fc99a939cadfc91",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Volumen no legible; no se infiere si es carbonatada."
+    },
+    {
+      "id": "baolisu-lychee",
+      "name": "Bebida de lychee",
+      "brand": "Baolisu",
+      "category": "bebidas",
+      "flavor": "Lychee",
+      "presentation": "Botella de 300 ml",
+      "description": "Bebida frutada con lychee en botella.",
+      "order": 9,
+      "sources": [
+        {
+          "originalIndex": 16,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.09 (3).jpeg",
+          "file": "resources/catalog/originals/baolisu-lychee-01.jpeg",
+          "sha256": "d5b3e3bfbbd3fdbfab48cb250e71dff401deaa3217b86a7993ce7c6c64d134e6",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 17,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.09.jpeg",
+          "file": "resources/catalog/originals/baolisu-lychee-02.jpeg",
+          "sha256": "55a76c2e4d4cb4f014e6a36b7f0676f74208470d64d05ee374598c89593a7937",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "lotte-lets-be-mocha",
+      "name": "Let’s Be mocha latte",
+      "brand": "Lotte",
+      "category": "bebidas",
+      "flavor": "Mocha latte",
+      "presentation": "Lata de 175 ml",
+      "description": "Café mocha latte de la familia Let’s Be.",
+      "order": 10,
+      "sources": [
+        {
+          "originalIndex": 18,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.10 (1).jpeg",
+          "file": "resources/catalog/originals/lotte-lets-be-mocha-01.jpeg",
+          "sha256": "57a46d1b2834121055039a386a5436780ed24ab48d8a1d00cb45832fcf890a57",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 25,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.11 (3).jpeg",
+          "file": "resources/catalog/originals/lotte-lets-be-mocha-02.jpeg",
+          "sha256": "93104a41a2b5aad10e9f967caf9a08708095c1fe12c5dd023fae9b716a4f5d55",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "lotte-lets-be-cappuccino",
+      "name": "Let’s Be cappuccino",
+      "brand": "Lotte",
+      "category": "bebidas",
+      "flavor": "Cappuccino",
+      "presentation": "Lata de 240 ml",
+      "description": "Cappuccino en la presentación dorada de Let’s Be.",
+      "order": 11,
+      "sources": [
+        {
+          "originalIndex": 19,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.10 (2).jpeg",
+          "file": "resources/catalog/originals/lotte-lets-be-cappuccino-01.jpeg",
+          "sha256": "4c0d52e43123a1e019da95d72d3d799c16b6fe2e668e95d1e9bc38be0c285259",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "lotte-lets-be-latte",
+      "name": "Let’s Be Cafetime latte",
+      "brand": "Lotte",
+      "category": "bebidas",
+      "flavor": "Latte",
+      "presentation": "Lata",
+      "description": "Café latte de Let’s Be Cafetime.",
+      "order": 12,
+      "sources": [
+        {
+          "originalIndex": 20,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.10 (3).jpeg",
+          "file": "resources/catalog/originals/lotte-lets-be-latte-01.jpeg",
+          "sha256": "29dd25eb2cf2b90ec80f9ce3eb6b0a3838bcee237822d2a108a12b923e59ba77",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 21,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.10 (4).jpeg",
+          "file": "resources/catalog/originals/lotte-lets-be-latte-02.jpeg",
+          "sha256": "74d3988290310553d5788b7fdcbccabe30fe7910320633d8798e21813c4e1a8a",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Volumen no legible."
+    },
+    {
+      "id": "lotte-milkis-uva",
+      "name": "Milkis uva",
+      "brand": "Lotte",
+      "category": "bebidas",
+      "flavor": "Uva",
+      "presentation": "Lata de 250 ml",
+      "description": "Cream soda sabor uva de la familia Milkis.",
+      "order": 13,
+      "sources": [
+        {
+          "originalIndex": 22,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.10.jpeg",
+          "file": "resources/catalog/originals/lotte-milkis-uva-01.jpeg",
+          "sha256": "146d3c586da3e31f451743665410fbdb7962b0269778ca25d21cdda8d3f505b6",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "250 ml según la equivalencia de 8.45 fl oz visible en el empaque."
+    },
+    {
+      "id": "xiangpiaopiao-frijol-rojo",
+      "name": "Milk Tea frijol rojo",
+      "brand": "Xiangpiaopiao",
+      "category": "bebidas",
+      "flavor": "Frijol rojo",
+      "presentation": "Vaso de 64 g",
+      "description": "Mezcla de té con leche sabor frijol rojo.",
+      "order": 14,
+      "sources": [
+        {
+          "originalIndex": 23,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.11 (1).jpeg",
+          "file": "resources/catalog/originals/xiangpiaopiao-frijol-rojo-01.jpeg",
+          "sha256": "f35f194957306638f450b10e9291f68b3e4bcb07e68dc2925bb2dc64364c6e27",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "El empaque indica 64 g y desglosa complementos; no se añade su masa al total sin confirmar."
+    },
+    {
+      "id": "lotte-pepero-choco-cookie",
+      "name": "Pepero choco cookie",
+      "brand": "Lotte",
+      "category": "snacks",
+      "flavor": "Choco cookie",
+      "presentation": "Caja de 32 g",
+      "description": "Palitos de galleta con cobertura choco cookie.",
+      "order": 15,
+      "sources": [
+        {
+          "originalIndex": 24,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.11 (2).jpeg",
+          "file": "resources/catalog/originals/lotte-pepero-choco-cookie-01.jpeg",
+          "sha256": "be8f8c0095a22d24bb8d1c92b4f1096c4b9b6b02b9b8cc521c0b05e882ea4011",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 32,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.12.jpeg",
+          "file": "resources/catalog/originals/lotte-pepero-choco-cookie-02.jpeg",
+          "sha256": "9dc4c26acd25d22750eb63c2466dc244d14c5a581edf71e66c965f8f25359943",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "lotte-pepero-crunchy",
+      "name": "Pepero crunchy",
+      "brand": "Lotte",
+      "category": "snacks",
+      "flavor": "Crunchy",
+      "presentation": "Caja de 39 g",
+      "description": "Palitos de galleta con cobertura crujiente.",
+      "order": 16,
+      "sources": [
+        {
+          "originalIndex": 26,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.11 (4).jpeg",
+          "file": "resources/catalog/originals/lotte-pepero-crunchy-01.jpeg",
+          "sha256": "7f67f0c6a97029b1c6a72300fd0a84351835a2f44f4ed7a998a594ebe05579ce",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "xiangpiaopiao-trigo",
+      "name": "Milk Tea trigo",
+      "brand": "Xiangpiaopiao",
+      "category": "bebidas",
+      "flavor": "Trigo",
+      "presentation": "Vaso",
+      "description": "Mezcla de té con leche sabor trigo.",
+      "order": 17,
+      "sources": [
+        {
+          "originalIndex": 27,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.11.jpeg",
+          "file": "resources/catalog/originals/xiangpiaopiao-trigo-01.jpeg",
+          "sha256": "9d156e20b563d4daba739e193e08a4fd50a96099c5d146c699f640c45ed27ecd",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Peso neto no legible."
+    },
+    {
+      "id": "fruit-fun-limon",
+      "name": "Fruit Fun Fruity limón",
+      "brand": "Jiashili",
+      "category": "snacks",
+      "flavor": "Limón",
+      "presentation": "Bolsa de 85 g",
+      "description": "Mini galletas rellenas sabor limón.",
+      "order": 18,
+      "sources": [
+        {
+          "originalIndex": 28,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.12 (1).jpeg",
+          "file": "resources/catalog/originals/fruit-fun-limon-01.jpeg",
+          "sha256": "f52a0af69561882826db59a4ba4fcf5c3ae3bfe01acc5a69ee645ccc65996711",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 29,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.12 (2).jpeg",
+          "file": "resources/catalog/originals/fruit-fun-limon-02.jpeg",
+          "sha256": "dfeb0dc5390718f28c22c5e2529a16bbf034c26eaea443854aa42bc965d61055",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "fruit-fun-fresa",
+      "name": "Fruit Fun Fruity fresa",
+      "brand": "Jiashili",
+      "category": "snacks",
+      "flavor": "Fresa",
+      "presentation": "Bolsa de 85 g",
+      "description": "Mini galletas rellenas sabor fresa.",
+      "order": 19,
+      "sources": [
+        {
+          "originalIndex": 30,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.12 (3).jpeg",
+          "file": "resources/catalog/originals/fruit-fun-fresa-01.jpeg",
+          "sha256": "e33b118bafbaa0cb6359e8d4c896fa47d76ed0904afc04ce5127c5a901987c1d",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 31,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.12 (4).jpeg",
+          "file": "resources/catalog/originals/fruit-fun-fresa-02.jpeg",
+          "sha256": "de6366ed8ce9d7d28cbd9de569618cc66551e2b7f0e4c4036d83db3e25fe7424",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "otoki-jin-spicy",
+      "name": "Jin ramen spicy",
+      "brand": "OTOKI",
+      "category": "ramen",
+      "flavor": "Picante",
+      "presentation": "Paquete de 120 g",
+      "description": "Jin ramen en su presentación spicy.",
+      "order": 20,
+      "sources": [
+        {
+          "originalIndex": 33,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.13 (1).jpeg",
+          "file": "resources/catalog/originals/otoki-jin-spicy-01.jpeg",
+          "sha256": "39db79b3d9db1832aee0e16b246ad5ad78bfaf3ae9c5bf47817100ca477612a4",
+          "role": "principal"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "nongshim-shin-ramyun",
+      "name": "Shin Ramyun",
+      "brand": "Nongshim",
+      "category": "ramen",
+      "flavor": "Original",
+      "presentation": "Paquete de 120 g",
+      "description": "Shin Ramyun en su empaque rojo.",
+      "order": 21,
+      "sources": [
+        {
+          "originalIndex": 34,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.13 (2).jpeg",
+          "file": "resources/catalog/originals/nongshim-shin-ramyun-01.jpeg",
+          "sha256": "b765f2330eff38271e5de5dddcc096ef43473112644540626c8cfd318936d575",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 37,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.13.jpeg",
+          "file": "resources/catalog/originals/nongshim-shin-ramyun-02.jpeg",
+          "sha256": "118792fbfe794d52200bfda260228f3c562ffea415499d8d2ded597fb1d48d9b",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "otoki-jin-mild",
+      "name": "Jin ramen mild",
+      "brand": "OTOKI",
+      "category": "ramen",
+      "flavor": "Mild",
+      "presentation": "Paquete de 120 g",
+      "description": "Jin ramen en su presentación mild.",
+      "order": 22,
+      "sources": [
+        {
+          "originalIndex": 35,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.13 (3).jpeg",
+          "file": "resources/catalog/originals/otoki-jin-mild-01.jpeg",
+          "sha256": "82f9f988761fa660b8e7505210d68eb408679b0c63e582faf185e923416c3e00",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 42,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.14.jpeg",
+          "file": "resources/catalog/originals/otoki-jin-mild-02.jpeg",
+          "sha256": "af3590780980d2a0f280aeee8396722f5264cad934845d3001d098f9f955f627",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "otoki-kimchi",
+      "name": "Kimchi ramen",
+      "brand": "OTOKI",
+      "category": "ramen",
+      "flavor": "Kimchi",
+      "presentation": "Paquete de 120 g",
+      "description": "Fideos instantáneos estilo coreano sabor kimchi.",
+      "order": 23,
+      "sources": [
+        {
+          "originalIndex": 36,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.13 (4).jpeg",
+          "file": "resources/catalog/originals/otoki-kimchi-01.jpeg",
+          "sha256": "1c913b76c31020d7ee0a4bfe2976e5cb4c00c06cd2680b87425e104e10480c0d",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 38,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.14 (1).jpeg",
+          "file": "resources/catalog/originals/otoki-kimchi-02.jpeg",
+          "sha256": "e7836c9b042132c1d31399f8ac158439e440f145be3ed73ed5b667f29af7b72a",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "baixiang-hot-chicken",
+      "name": "Classic Hot Chicken",
+      "brand": "Baixiang",
+      "category": "ramen",
+      "flavor": "Pollo picante",
+      "presentation": "Paquete de 112 g",
+      "description": "Fideos instantáneos sabor pollo picante de Baixiang.",
+      "order": 24,
+      "sources": [
+        {
+          "originalIndex": 39,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.14 (2).jpeg",
+          "file": "resources/catalog/originals/baixiang-hot-chicken-01.jpeg",
+          "sha256": "a92a5eee42d75ace3da15286c5190f34499eeb86806fb0ac82d71061c1c2611b",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 48,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.15.jpeg",
+          "file": "resources/catalog/originals/baixiang-hot-chicken-02.jpeg",
+          "sha256": "274f59cb4c883d694e34bbc74ca70d78fb2ff586f7fdb39c94693043bf879060",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Nombre chino 白象 visible; línea comercial Super Chili."
+    },
+    {
+      "id": "samyang-buldak-carbonara",
+      "name": "Buldak carbonara",
+      "brand": "Samyang",
+      "category": "ramen",
+      "flavor": "Carbonara",
+      "presentation": "Paquete de 130 g",
+      "description": "Fideos instantáneos Samyang en su versión carbonara.",
+      "order": 25,
+      "sources": [
+        {
+          "originalIndex": 40,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.14 (3).jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-carbonara-01.jpeg",
+          "sha256": "ac404b28b929d07a46d5b800d9decd79cbc7a5517e0c5872f7714f787b1d67e3",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 43,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.15 (1).jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-carbonara-02.jpeg",
+          "sha256": "263cdd56f305f1039267443bef7d9ae18a7d72533662dfa4cc0ad67e6ce6b53b",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "samyang-buldak-original",
+      "name": "Buldak original",
+      "brand": "Samyang",
+      "category": "ramen",
+      "flavor": "Original",
+      "presentation": "Paquete de 140 g",
+      "description": "La presentación original de Buldak de Samyang.",
+      "order": 26,
+      "sources": [
+        {
+          "originalIndex": 41,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.14 (4).jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-original-01.jpeg",
+          "sha256": "4970b6dacb14798b8b4042f773677e528590a047c288ddac64ea58e3f2d8b4b2",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 44,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.15 (2).jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-original-02.jpeg",
+          "sha256": "b3e7b6547e4c7becea52facd230736d228778920ff362e1f950a131c1eb8128b",
+          "role": "alternativa"
+        },
+        {
+          "originalIndex": 49,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.16 (1).jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-original-03.jpeg",
+          "sha256": "ce8a74f5847715af4b97108f73ed4b61366f4b3e19a4888fb4988b006c018eaf",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "paldo-volcano-carbonara",
+      "name": "Volcano carbonara",
+      "brand": "Paldo",
+      "category": "ramen",
+      "flavor": "Carbonara",
+      "presentation": "Paquete de 130 g",
+      "description": "Volcano Chicken Noodle en su versión carbonara.",
+      "order": 27,
+      "sources": [
+        {
+          "originalIndex": 45,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.15 (3).jpeg",
+          "file": "resources/catalog/originals/paldo-volcano-carbonara-01.jpeg",
+          "sha256": "2273c80a6c3e03919f3518d3f19d35c537d8cbe7c32b4e316d1c6c5c4f4a6890",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 46,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.15 (4).jpeg",
+          "file": "resources/catalog/originals/paldo-volcano-carbonara-02.jpeg",
+          "sha256": "2805e8ced5f7afc8231e93f5c3c682b80871601ae68ffe45c35cf0f78a15e2b0",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": ""
+    },
+    {
+      "id": "samyang-buldak-rose",
+      "name": "Buldak rosé",
+      "brand": "Samyang",
+      "category": "ramen",
+      "flavor": "Rosé",
+      "presentation": "Paquete",
+      "description": "Fideos instantáneos Samyang en su versión rosé.",
+      "order": 28,
+      "sources": [
+        {
+          "originalIndex": 47,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.15 (5).jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-rose-01.jpeg",
+          "sha256": "e6c2034bf1db144ad607b966077cb6a8c68bbc3c5fcebe422b4f7d2ad34c4650",
+          "role": "principal"
+        },
+        {
+          "originalIndex": 50,
+          "originalFilename": "WhatsApp Image 2026-10-12 at 23.31.16.jpeg",
+          "file": "resources/catalog/originals/samyang-buldak-rose-02.jpeg",
+          "sha256": "0302069b15b46cfab013c65a4fd6238a77a89eec3bba2ef859c714df0ed3c68b",
+          "role": "alternativa"
+        }
+      ],
+      "evidence": "Lectura visual del empaque fotografiado; no se infieren ingredientes, alérgenos ni nivel de picante.",
+      "notes": "Peso neto no legible."
+    }
+  ]
+}

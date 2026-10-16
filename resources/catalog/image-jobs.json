@@ -1,0 +1,466 @@
+[
+  {
+    "id": "fruit-fun-arandano-frontal",
+    "productId": "fruit-fun-arandano",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/fruit-fun-arandano-01.jpeg",
+    "output": "resources/catalog/masters/fruit-fun-arandano-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Fruit Fun Fruity arándano, Jiashili, Arándano, Paquete individual. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "fruit-fun-arandano-tres-cuartos",
+    "productId": "fruit-fun-arandano",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/fruit-fun-arandano-01.jpeg",
+    "output": "resources/catalog/masters/fruit-fun-arandano-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Fruit Fun Fruity arándano, Jiashili, Arándano, Paquete individual. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "orion-berry-pie-frontal",
+    "productId": "orion-berry-pie",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/orion-berry-pie-01.jpeg",
+    "output": "resources/catalog/masters/orion-berry-pie-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Berry Pie, Orion, Fresa y frambuesa, Caja de 6 unidades. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "orion-berry-pie-tres-cuartos",
+    "productId": "orion-berry-pie",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/orion-berry-pie-01.jpeg",
+    "output": "resources/catalog/masters/orion-berry-pie-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Berry Pie, Orion, Fresa y frambuesa, Caja de 6 unidades. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "sab-chocolate-frontal",
+    "productId": "sab-chocolate",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/sab-chocolate-01.jpeg",
+    "output": "resources/catalog/masters/sab-chocolate-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Sab chocolate, Sab, Chocolate, Caja de 96 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "sab-chocolate-tres-cuartos",
+    "productId": "sab-chocolate",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/sab-chocolate-01.jpeg",
+    "output": "resources/catalog/masters/sab-chocolate-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Sab chocolate, Sab, Chocolate, Caja de 96 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "orion-cocoa-pie-frontal",
+    "productId": "orion-cocoa-pie",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/orion-cocoa-pie-01.jpeg",
+    "output": "resources/catalog/masters/orion-cocoa-pie-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Cocoa Pie, Orion, Chocolate, Caja de 6 unidades. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "orion-cocoa-pie-tres-cuartos",
+    "productId": "orion-cocoa-pie",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/orion-cocoa-pie-01.jpeg",
+    "output": "resources/catalog/masters/orion-cocoa-pie-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Cocoa Pie, Orion, Chocolate, Caja de 6 unidades. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "vina-yogur-frontal",
+    "productId": "vina-yogur",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/vina-yogur-01.jpeg",
+    "output": "resources/catalog/masters/vina-yogur-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: VINA tres capas, VINA, Yogur, Caja de 100 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "vina-yogur-tres-cuartos",
+    "productId": "vina-yogur",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/vina-yogur-01.jpeg",
+    "output": "resources/catalog/masters/vina-yogur-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: VINA tres capas, VINA, Yogur, Caja de 100 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "sab-matcha-frontal",
+    "productId": "sab-matcha",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/sab-matcha-01.jpeg",
+    "output": "resources/catalog/masters/sab-matcha-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Sab matcha, Sab, Matcha, Caja de 96 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "sab-matcha-tres-cuartos",
+    "productId": "sab-matcha",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/sab-matcha-01.jpeg",
+    "output": "resources/catalog/masters/sab-matcha-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Sab matcha, Sab, Matcha, Caja de 96 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "ice-talk-uva-verde-frontal",
+    "productId": "ice-talk-uva-verde",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/ice-talk-uva-verde-01.jpeg",
+    "output": "resources/catalog/masters/ice-talk-uva-verde-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Ice Talk uva verde, Ice Talk, Uva verde, Pouch de 230 ml. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "ice-talk-uva-verde-tres-cuartos",
+    "productId": "ice-talk-uva-verde",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/ice-talk-uva-verde-01.jpeg",
+    "output": "resources/catalog/masters/ice-talk-uva-verde-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Ice Talk uva verde, Ice Talk, Uva verde, Pouch de 230 ml. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "rico-bubble-tea-matcha-frontal",
+    "productId": "rico-bubble-tea-matcha",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/rico-bubble-tea-matcha-01.jpeg",
+    "output": "resources/catalog/masters/rico-bubble-tea-matcha-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Bubble Milk Tea matcha, Rico, Matcha, Lata de 350 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "rico-bubble-tea-matcha-tres-cuartos",
+    "productId": "rico-bubble-tea-matcha",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/rico-bubble-tea-matcha-01.jpeg",
+    "output": "resources/catalog/masters/rico-bubble-tea-matcha-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Bubble Milk Tea matcha, Rico, Matcha, Lata de 350 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "rico-grape-frontal",
+    "productId": "rico-grape",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/rico-grape-01.jpeg",
+    "output": "resources/catalog/masters/rico-grape-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Rico Grape, Rico, Uva, Lata. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "rico-grape-tres-cuartos",
+    "productId": "rico-grape",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/rico-grape-01.jpeg",
+    "output": "resources/catalog/masters/rico-grape-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Rico Grape, Rico, Uva, Lata. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "baolisu-lychee-frontal",
+    "productId": "baolisu-lychee",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/baolisu-lychee-01.jpeg",
+    "output": "resources/catalog/masters/baolisu-lychee-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Bebida de lychee, Baolisu, Lychee, Botella de 300 ml. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "baolisu-lychee-tres-cuartos",
+    "productId": "baolisu-lychee",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/baolisu-lychee-01.jpeg",
+    "output": "resources/catalog/masters/baolisu-lychee-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Bebida de lychee, Baolisu, Lychee, Botella de 300 ml. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "lotte-lets-be-mocha-frontal",
+    "productId": "lotte-lets-be-mocha",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/lotte-lets-be-mocha-01.jpeg",
+    "output": "resources/catalog/masters/lotte-lets-be-mocha-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Let’s Be mocha latte, Lotte, Mocha latte, Lata de 175 ml. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "lotte-lets-be-mocha-tres-cuartos",
+    "productId": "lotte-lets-be-mocha",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/lotte-lets-be-mocha-01.jpeg",
+    "output": "resources/catalog/masters/lotte-lets-be-mocha-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Let’s Be mocha latte, Lotte, Mocha latte, Lata de 175 ml. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "lotte-lets-be-cappuccino-frontal",
+    "productId": "lotte-lets-be-cappuccino",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/lotte-lets-be-cappuccino-01.jpeg",
+    "output": "resources/catalog/masters/lotte-lets-be-cappuccino-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Let’s Be cappuccino, Lotte, Cappuccino, Lata de 240 ml. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "lotte-lets-be-cappuccino-tres-cuartos",
+    "productId": "lotte-lets-be-cappuccino",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/lotte-lets-be-cappuccino-01.jpeg",
+    "output": "resources/catalog/masters/lotte-lets-be-cappuccino-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Let’s Be cappuccino, Lotte, Cappuccino, Lata de 240 ml. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "lotte-lets-be-latte-frontal",
+    "productId": "lotte-lets-be-latte",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/lotte-lets-be-latte-01.jpeg",
+    "output": "resources/catalog/masters/lotte-lets-be-latte-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Let’s Be Cafetime latte, Lotte, Latte, Lata. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "lotte-lets-be-latte-tres-cuartos",
+    "productId": "lotte-lets-be-latte",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/lotte-lets-be-latte-01.jpeg",
+    "output": "resources/catalog/masters/lotte-lets-be-latte-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Let’s Be Cafetime latte, Lotte, Latte, Lata. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "lotte-milkis-uva-frontal",
+    "productId": "lotte-milkis-uva",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/lotte-milkis-uva-01.jpeg",
+    "output": "resources/catalog/masters/lotte-milkis-uva-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Milkis uva, Lotte, Uva, Lata de 250 ml. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "lotte-milkis-uva-tres-cuartos",
+    "productId": "lotte-milkis-uva",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/lotte-milkis-uva-01.jpeg",
+    "output": "resources/catalog/masters/lotte-milkis-uva-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Milkis uva, Lotte, Uva, Lata de 250 ml. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "xiangpiaopiao-frijol-rojo-frontal",
+    "productId": "xiangpiaopiao-frijol-rojo",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/xiangpiaopiao-frijol-rojo-01.jpeg",
+    "output": "resources/catalog/masters/xiangpiaopiao-frijol-rojo-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Milk Tea frijol rojo, Xiangpiaopiao, Frijol rojo, Vaso de 64 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "xiangpiaopiao-frijol-rojo-tres-cuartos",
+    "productId": "xiangpiaopiao-frijol-rojo",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/xiangpiaopiao-frijol-rojo-01.jpeg",
+    "output": "resources/catalog/masters/xiangpiaopiao-frijol-rojo-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Milk Tea frijol rojo, Xiangpiaopiao, Frijol rojo, Vaso de 64 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "lotte-pepero-choco-cookie-frontal",
+    "productId": "lotte-pepero-choco-cookie",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/lotte-pepero-choco-cookie-01.jpeg",
+    "output": "resources/catalog/masters/lotte-pepero-choco-cookie-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Pepero choco cookie, Lotte, Choco cookie, Caja de 32 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "lotte-pepero-choco-cookie-tres-cuartos",
+    "productId": "lotte-pepero-choco-cookie",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/lotte-pepero-choco-cookie-01.jpeg",
+    "output": "resources/catalog/masters/lotte-pepero-choco-cookie-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Pepero choco cookie, Lotte, Choco cookie, Caja de 32 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "lotte-pepero-crunchy-frontal",
+    "productId": "lotte-pepero-crunchy",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/lotte-pepero-crunchy-01.jpeg",
+    "output": "resources/catalog/masters/lotte-pepero-crunchy-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Pepero crunchy, Lotte, Crunchy, Caja de 39 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "lotte-pepero-crunchy-tres-cuartos",
+    "productId": "lotte-pepero-crunchy",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/lotte-pepero-crunchy-01.jpeg",
+    "output": "resources/catalog/masters/lotte-pepero-crunchy-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Pepero crunchy, Lotte, Crunchy, Caja de 39 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "xiangpiaopiao-trigo-frontal",
+    "productId": "xiangpiaopiao-trigo",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/xiangpiaopiao-trigo-01.jpeg",
+    "output": "resources/catalog/masters/xiangpiaopiao-trigo-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Milk Tea trigo, Xiangpiaopiao, Trigo, Vaso. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "xiangpiaopiao-trigo-tres-cuartos",
+    "productId": "xiangpiaopiao-trigo",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/xiangpiaopiao-trigo-01.jpeg",
+    "output": "resources/catalog/masters/xiangpiaopiao-trigo-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Milk Tea trigo, Xiangpiaopiao, Trigo, Vaso. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "fruit-fun-limon-frontal",
+    "productId": "fruit-fun-limon",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/fruit-fun-limon-01.jpeg",
+    "output": "resources/catalog/masters/fruit-fun-limon-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Fruit Fun Fruity limón, Jiashili, Limón, Bolsa de 85 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "fruit-fun-limon-tres-cuartos",
+    "productId": "fruit-fun-limon",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/fruit-fun-limon-01.jpeg",
+    "output": "resources/catalog/masters/fruit-fun-limon-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Fruit Fun Fruity limón, Jiashili, Limón, Bolsa de 85 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "fruit-fun-fresa-frontal",
+    "productId": "fruit-fun-fresa",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/fruit-fun-fresa-01.jpeg",
+    "output": "resources/catalog/masters/fruit-fun-fresa-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Fruit Fun Fruity fresa, Jiashili, Fresa, Bolsa de 85 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "fruit-fun-fresa-tres-cuartos",
+    "productId": "fruit-fun-fresa",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/fruit-fun-fresa-01.jpeg",
+    "output": "resources/catalog/masters/fruit-fun-fresa-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Fruit Fun Fruity fresa, Jiashili, Fresa, Bolsa de 85 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "otoki-jin-spicy-frontal",
+    "productId": "otoki-jin-spicy",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/otoki-jin-spicy-01.jpeg",
+    "output": "resources/catalog/masters/otoki-jin-spicy-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Jin ramen spicy, OTOKI, Picante, Paquete de 120 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "otoki-jin-spicy-tres-cuartos",
+    "productId": "otoki-jin-spicy",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/otoki-jin-spicy-01.jpeg",
+    "output": "resources/catalog/masters/otoki-jin-spicy-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Jin ramen spicy, OTOKI, Picante, Paquete de 120 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "nongshim-shin-ramyun-frontal",
+    "productId": "nongshim-shin-ramyun",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/nongshim-shin-ramyun-01.jpeg",
+    "output": "resources/catalog/masters/nongshim-shin-ramyun-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Shin Ramyun, Nongshim, Original, Paquete de 120 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "nongshim-shin-ramyun-tres-cuartos",
+    "productId": "nongshim-shin-ramyun",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/nongshim-shin-ramyun-01.jpeg",
+    "output": "resources/catalog/masters/nongshim-shin-ramyun-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Shin Ramyun, Nongshim, Original, Paquete de 120 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "otoki-jin-mild-frontal",
+    "productId": "otoki-jin-mild",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/otoki-jin-mild-01.jpeg",
+    "output": "resources/catalog/masters/otoki-jin-mild-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Jin ramen mild, OTOKI, Mild, Paquete de 120 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "otoki-jin-mild-tres-cuartos",
+    "productId": "otoki-jin-mild",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/otoki-jin-mild-01.jpeg",
+    "output": "resources/catalog/masters/otoki-jin-mild-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Jin ramen mild, OTOKI, Mild, Paquete de 120 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "otoki-kimchi-frontal",
+    "productId": "otoki-kimchi",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/otoki-kimchi-01.jpeg",
+    "output": "resources/catalog/masters/otoki-kimchi-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Kimchi ramen, OTOKI, Kimchi, Paquete de 120 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "otoki-kimchi-tres-cuartos",
+    "productId": "otoki-kimchi",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/otoki-kimchi-01.jpeg",
+    "output": "resources/catalog/masters/otoki-kimchi-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Kimchi ramen, OTOKI, Kimchi, Paquete de 120 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "baixiang-hot-chicken-frontal",
+    "productId": "baixiang-hot-chicken",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/baixiang-hot-chicken-01.jpeg",
+    "output": "resources/catalog/masters/baixiang-hot-chicken-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Classic Hot Chicken, Baixiang, Pollo picante, Paquete de 112 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "baixiang-hot-chicken-tres-cuartos",
+    "productId": "baixiang-hot-chicken",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/baixiang-hot-chicken-01.jpeg",
+    "output": "resources/catalog/masters/baixiang-hot-chicken-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Classic Hot Chicken, Baixiang, Pollo picante, Paquete de 112 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "samyang-buldak-carbonara-frontal",
+    "productId": "samyang-buldak-carbonara",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/samyang-buldak-carbonara-01.jpeg",
+    "output": "resources/catalog/masters/samyang-buldak-carbonara-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak carbonara, Samyang, Carbonara, Paquete de 130 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "samyang-buldak-carbonara-tres-cuartos",
+    "productId": "samyang-buldak-carbonara",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/samyang-buldak-carbonara-01.jpeg",
+    "output": "resources/catalog/masters/samyang-buldak-carbonara-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak carbonara, Samyang, Carbonara, Paquete de 130 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "samyang-buldak-original-frontal",
+    "productId": "samyang-buldak-original",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/samyang-buldak-original-01.jpeg",
+    "output": "resources/catalog/masters/samyang-buldak-original-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak original, Samyang, Original, Paquete de 140 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "samyang-buldak-original-tres-cuartos",
+    "productId": "samyang-buldak-original",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/samyang-buldak-original-01.jpeg",
+    "output": "resources/catalog/masters/samyang-buldak-original-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak original, Samyang, Original, Paquete de 140 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "paldo-volcano-carbonara-frontal",
+    "productId": "paldo-volcano-carbonara",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/paldo-volcano-carbonara-01.jpeg",
+    "output": "resources/catalog/masters/paldo-volcano-carbonara-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Volcano carbonara, Paldo, Carbonara, Paquete de 130 g. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "paldo-volcano-carbonara-tres-cuartos",
+    "productId": "paldo-volcano-carbonara",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/paldo-volcano-carbonara-01.jpeg",
+    "output": "resources/catalog/masters/paldo-volcano-carbonara-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Volcano carbonara, Paldo, Carbonara, Paquete de 130 g. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  },
+  {
+    "id": "samyang-buldak-rose-frontal",
+    "productId": "samyang-buldak-rose",
+    "angle": "frontal",
+    "source": "resources/catalog/originals/samyang-buldak-rose-01.jpeg",
+    "output": "resources/catalog/masters/samyang-buldak-rose-frontal.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak rosé, Samyang, Rosé, Paquete. FRONTAL VIEW: retain the photographed front face, straight-on with minimal perspective correction. Do not invent or reveal new package faces."
+  },
+  {
+    "id": "samyang-buldak-rose-tres-cuartos",
+    "productId": "samyang-buldak-rose",
+    "angle": "tres-cuartos",
+    "source": "resources/catalog/originals/samyang-buldak-rose-01.jpeg",
+    "output": "resources/catalog/masters/samyang-buldak-rose-tres-cuartos.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square 1024 x 1024 studio catalog photograph for Moyami. Edit target is the attached photograph. Isolate ONLY the single complete packaged product described below, removing the counter, paper, shelves and every surrounding object. Place it upright and centered on pure white #FFFFFF with a subtle neutral contact shadow, generous margins and the longest product dimension occupying 78% of the square canvas. Professional soft studio lighting and faithful color correction. Preserve the EXACT original package silhouette, proportions, material, colors, logo, illustrated characters, food illustrations and ALL lettering including Chinese, Korean, English, nutrition warning stickers and net weight. Do not translate, redesign, change the brand, remove warning labels or add text. Do not add loose food, props, hands, plates, extra products, borders or watermarks. Product: Buldak rosé, Samyang, Rosé, Paquete. SYNTHETIC THREE-QUARTER VIEW: show this same package rotated approximately 18 degrees, front face still dominant and completely readable, with only a narrow right side visible. This angle is an illustrative reconstruction. Keep all documented front artwork exactly faithful; do not invent extra brand claims or ingredients on the narrow side. For cylindrical cans rotate slightly while keeping the original front label fully visible."
+  }
+]
