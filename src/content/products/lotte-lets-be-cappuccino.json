@@ -1,0 +1,21 @@
+{
+  "name": "Let’s Be cappuccino",
+  "brand": "Lotte",
+  "category": "bebidas",
+  "flavor": "Cappuccino",
+  "presentation": "Lata de 240 ml",
+  "description": "Cappuccino en la presentación dorada de Let’s Be.",
+  "order": 11,
+  "images": [
+    {
+      "src": "../../assets/products/lotte-lets-be-cappuccino/frontal-1024.webp",
+      "alt": "Let’s Be cappuccino, lata de 240 ml, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/lotte-lets-be-cappuccino/tres-cuartos-1024.webp",
+      "alt": "Let’s Be cappuccino, lata de 240 ml, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

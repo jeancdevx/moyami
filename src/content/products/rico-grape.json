@@ -1,0 +1,21 @@
+{
+  "name": "Rico Grape",
+  "brand": "Rico",
+  "category": "bebidas",
+  "flavor": "Uva",
+  "presentation": "Lata",
+  "description": "La versión de uva de Rico, en su lata morada.",
+  "order": 8,
+  "images": [
+    {
+      "src": "../../assets/products/rico-grape/frontal-1024.webp",
+      "alt": "Rico Grape, lata, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/rico-grape/tres-cuartos-1024.webp",
+      "alt": "Rico Grape, lata, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ice Talk uva verde",
+  "brand": "Ice Talk",
+  "category": "bebidas",
+  "flavor": "Uva verde",
+  "presentation": "Pouch de 230 ml",
+  "description": "Green Grape Ade en un práctico pouch.",
+  "order": 6,
+  "images": [
+    {
+      "src": "../../assets/products/ice-talk-uva-verde/frontal-1024.webp",
+      "alt": "Ice Talk uva verde, pouch de 230 ml, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/ice-talk-uva-verde/tres-cuartos-1024.webp",
+      "alt": "Ice Talk uva verde, pouch de 230 ml, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Milk Tea trigo",
+  "brand": "Xiangpiaopiao",
+  "category": "bebidas",
+  "flavor": "Trigo",
+  "presentation": "Vaso",
+  "description": "Mezcla de té con leche sabor trigo.",
+  "order": 17,
+  "images": [
+    {
+      "src": "../../assets/products/xiangpiaopiao-trigo/frontal-1024.webp",
+      "alt": "Milk Tea trigo, vaso, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/xiangpiaopiao-trigo/tres-cuartos-1024.webp",
+      "alt": "Milk Tea trigo, vaso, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

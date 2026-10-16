@@ -1,0 +1,21 @@
+{
+  "name": "Milk Tea frijol rojo",
+  "brand": "Xiangpiaopiao",
+  "category": "bebidas",
+  "flavor": "Frijol rojo",
+  "presentation": "Vaso de 64 g",
+  "description": "Mezcla de té con leche sabor frijol rojo.",
+  "order": 14,
+  "images": [
+    {
+      "src": "../../assets/products/xiangpiaopiao-frijol-rojo/frontal-1024.webp",
+      "alt": "Milk Tea frijol rojo, vaso de 64 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/xiangpiaopiao-frijol-rojo/tres-cuartos-1024.webp",
+      "alt": "Milk Tea frijol rojo, vaso de 64 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

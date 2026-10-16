@@ -1,0 +1,21 @@
+{
+  "name": "Bebida de lychee",
+  "brand": "Baolisu",
+  "category": "bebidas",
+  "flavor": "Lychee",
+  "presentation": "Botella de 300 ml",
+  "description": "Bebida frutada con lychee en botella.",
+  "order": 9,
+  "images": [
+    {
+      "src": "../../assets/products/baolisu-lychee/frontal-1024.webp",
+      "alt": "Bebida de lychee, botella de 300 ml, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/baolisu-lychee/tres-cuartos-1024.webp",
+      "alt": "Bebida de lychee, botella de 300 ml, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

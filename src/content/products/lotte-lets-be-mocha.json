@@ -1,0 +1,21 @@
+{
+  "name": "Let’s Be mocha latte",
+  "brand": "Lotte",
+  "category": "bebidas",
+  "flavor": "Mocha latte",
+  "presentation": "Lata de 175 ml",
+  "description": "Café mocha latte de la familia Let’s Be.",
+  "order": 10,
+  "images": [
+    {
+      "src": "../../assets/products/lotte-lets-be-mocha/frontal-1024.webp",
+      "alt": "Let’s Be mocha latte, lata de 175 ml, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/lotte-lets-be-mocha/tres-cuartos-1024.webp",
+      "alt": "Let’s Be mocha latte, lata de 175 ml, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

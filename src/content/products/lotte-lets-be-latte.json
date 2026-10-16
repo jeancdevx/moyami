@@ -1,0 +1,21 @@
+{
+  "name": "Let’s Be Cafetime latte",
+  "brand": "Lotte",
+  "category": "bebidas",
+  "flavor": "Latte",
+  "presentation": "Lata",
+  "description": "Café latte de Let’s Be Cafetime.",
+  "order": 12,
+  "images": [
+    {
+      "src": "../../assets/products/lotte-lets-be-latte/frontal-1024.webp",
+      "alt": "Let’s Be Cafetime latte, lata, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/lotte-lets-be-latte/tres-cuartos-1024.webp",
+      "alt": "Let’s Be Cafetime latte, lata, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

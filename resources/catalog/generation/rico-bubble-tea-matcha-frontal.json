@@ -1,0 +1,12 @@
+{
+  "id": "rico-bubble-tea-matcha-frontal",
+  "productId": "rico-bubble-tea-matcha",
+  "angle": "frontal",
+  "source": "resources/catalog/originals/rico-bubble-tea-matcha-01.jpeg",
+  "output": "resources/catalog/masters/rico-bubble-tea-matcha-frontal.png",
+  "tool": "image_gen",
+  "generatedPath": "/home/jeancdevx/.codex/generated_images/01a141a3-b5f7-7aa3-9ea5-1207e9197f51/exec-882ae72f-c8d1-4b5c-aad9-38c7b8412bc2.png",
+  "review": "accepted",
+  "prompt": "Use case: precise-object-edit. Asset type: 1024 x 1024 ecommerce catalog product photograph for Moyami. Edit target is the reference photo of the green RICO Matcha Flavor Bubble Milk Tea Drink can. Remove all surrounding objects, paper backdrop and counter. Show ONLY this single complete can, front-facing, upright, centered on pure white #FFFFFF with a very soft contact shadow and generous clean margins, can filling 78% of canvas height. Correct lighting and white balance gently, make a crisp professional studio photograph. Keep the photographed product absolutely faithful: identical can proportions, green design, RICO brand, all original Chinese and English lettering, matcha milk splashes, black tapioca pearls, silver rim and visible N.W.:12.3 oz.(350g). Preserve original lettering as image detail, do not redesign, translate or add anything. No props, loose drink, hands, extra products or added text. This is the frontal photo, do not invent another face.",
+  "reviewNotes": "Revisión visual frente a la referencia: identidad, variante, color, formato, unidad aislada y encuadre. La vista sintética no se usa como evidencia de datos del producto. Los detalles pequeños del empaque deben comprobarse en el producto físico."
+}

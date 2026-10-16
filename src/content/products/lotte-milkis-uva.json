@@ -1,0 +1,21 @@
+{
+  "name": "Milkis uva",
+  "brand": "Lotte",
+  "category": "bebidas",
+  "flavor": "Uva",
+  "presentation": "Lata de 250 ml",
+  "description": "Cream soda sabor uva de la familia Milkis.",
+  "order": 13,
+  "images": [
+    {
+      "src": "../../assets/products/lotte-milkis-uva/frontal-1024.webp",
+      "alt": "Milkis uva, lata de 250 ml, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/lotte-milkis-uva/tres-cuartos-1024.webp",
+      "alt": "Milkis uva, lata de 250 ml, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

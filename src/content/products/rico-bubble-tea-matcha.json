@@ -1,0 +1,21 @@
+{
+  "name": "Bubble Milk Tea matcha",
+  "brand": "Rico",
+  "category": "bebidas",
+  "flavor": "Matcha",
+  "presentation": "Lata de 350 g",
+  "description": "Té con leche sabor matcha y perlas, en lata.",
+  "order": 7,
+  "images": [
+    {
+      "src": "../../assets/products/rico-bubble-tea-matcha/frontal-1024.webp",
+      "alt": "Bubble Milk Tea matcha, lata de 350 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/rico-bubble-tea-matcha/tres-cuartos-1024.webp",
+      "alt": "Bubble Milk Tea matcha, lata de 350 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}
