@@ -3,6 +3,7 @@ import { Image } from 'astro:assets'
 import { getCollection } from 'astro:content'
 
 import Icon from '@/components/Icon'
+import ProductDetail from '@/components/ProductDetail'
 
 const products = (await getCollection('products')).sort(
   (a, b) => a.data.order - b.data.order
@@ -120,6 +121,9 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
               </span>
             </div>
           </a>
+          <template data-product-template={product.id}>
+            <ProductDetail product={product} modal />
+          </template>
         </article>
       ))}
     </div>
@@ -132,6 +136,21 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
       </button>
     </div>
   </div>
+  <dialog
+    class='product-dialog'
+    aria-labelledby='dialog-product-title'
+    data-product-dialog
+  >
+    <button
+      type='button'
+      class='icon-button dialog-close'
+      aria-label='Cerrar detalle del producto'
+      data-product-close
+    >
+      <Icon name='x' />
+    </button>
+    <div data-dialog-content></div>
+  </dialog>
 </section>
 <script>
   import { setupCatalog } from './Catalog.client'
@@ -381,6 +400,28 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
   .catalog-empty p {
     margin-bottom: 24px;
   }
+  .product-dialog {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    width: min(100% - 32px, 1024px);
+    max-height: calc(100dvh - 32px);
+    padding: 64px 24px 24px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--color-tiza);
+    color: var(--color-carbon);
+    overflow-y: auto;
+  }
+  .product-dialog::backdrop {
+    background: #18201acc;
+    backdrop-filter: blur(12px);
+  }
+  .dialog-close {
+    position: absolute;
+    right: 16px;
+    top: 12px;
+  }
   @media (min-width: 640px) {
     .product-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -399,6 +440,9 @@ const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
   @media (min-width: 1024px) {
     .product-grid {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .product-dialog {
+      padding: 64px 40px 40px;
     }
     h3 {
       font-size: var(--text-lg);
