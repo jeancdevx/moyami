@@ -1,0 +1,56 @@
+---
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+
+import Layout from './Layout.astro'
+interface Props {
+  title: string
+  description: string
+}
+const { title, description } = Astro.props
+---
+
+<Layout title={`${title} | Moyami`} description={description}>
+  <Header />
+  <main id='contenido' class='information page-width'>
+    <a href='/' class='text-link'>
+      Volver a Moyami
+    </a>
+    <h1>{title}</h1>
+    <p class='information-date'>Actualizado el 15 de octubre de 2026</p>
+    <slot />
+  </main>
+  <Footer />
+</Layout>
+<style>
+  .information {
+    max-width: 768px;
+    padding-block: 48px 80px;
+  }
+  .information > a {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: var(--text-sm);
+  }
+  h1 {
+    font-size: var(--text-4xl);
+    line-height: var(--text-4xl--line-height);
+  }
+  .information-date {
+    color: #50594f;
+    font-size: var(--text-sm);
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+  .information :global(h2) {
+    margin-block: 32px 12px;
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    font-weight: 700;
+  }
+  .information :global(p:not(.information-date)) {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    margin-bottom: 16px;
+  }
+</style>

@@ -1,0 +1,63 @@
+---
+import Layout from '@/layouts/Layout.astro'
+
+import Header from '@/components/Header'
+import Icon from '@/components/Icon'
+
+import amy from '@/assets/mascots/amy/amy-estatica.png'
+---
+
+<Layout
+  title='No encontramos ese antojo | Moyami'
+  description='Vuelve al catálogo de Moyami para descubrir snacks, bebidas y ramen asiáticos.'
+>
+  <Header />
+  <main id='contenido' class='not-found page-width'>
+    <img
+      src={amy.src}
+      width='256'
+      height='256'
+      alt='Amy te acompaña de vuelta al catálogo'
+    />
+    <p class='eyebrow'>Página 404</p>
+    <h1>
+      Este antojo
+      <br />
+      se nos escapó.
+    </h1>
+    <p>
+      La página que buscas no está aquí.
+      <br />
+      El catálogo tiene mucho más por descubrir.
+    </p>
+    <a href='/#catalogo' class='button button-primary'>
+      Explorar catálogo
+      <Icon name='arrowRight' />
+    </a>
+  </main>
+</Layout>
+<style>
+  .not-found {
+    min-height: 80dvh;
+    padding-block: 48px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+  }
+  img {
+    width: 192px;
+    height: 192px;
+  }
+  h1 {
+    font-size: var(--text-5xl);
+    line-height: var(--text-5xl--line-height);
+  }
+  .not-found > p:not(.eyebrow) {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    color: #50594f;
+  }
+</style>
