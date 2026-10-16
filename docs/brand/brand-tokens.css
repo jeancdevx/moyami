@@ -1,0 +1,9 @@
+/* Moyami: tokens de identidad para la futura landing. */
+:root {
+  --moyami-carbon: #18201a;
+  --moyami-lima: #c8f04a;
+  --moyami-lila: #a792ef;
+  --moyami-tiza: #f7f8f2;
+  --moyami-font-titulos: 'Bricolage Grotesque', sans-serif;
+  --moyami-font-texto: 'Manrope', sans-serif;
+}

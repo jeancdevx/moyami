@@ -1,0 +1,5 @@
+# The PDF guide is binary even when its encoding looks like plain text.
+*.pdf binary
+
+# Preserve the supplied illustration prompts exactly as delivered.
+src/assets/mascots/prompts-ilustracion.txt -whitespace

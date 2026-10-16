@@ -1,0 +1,15 @@
+{
+  "nombre": "Moyami",
+  "paleta": {
+    "carbon": "#18201A",
+    "lima": "#C8F04A",
+    "lila": "#A792EF",
+    "tiza": "#F7F8F2"
+  },
+  "tipografias": {
+    "titulares": "Bricolage Grotesque 800",
+    "texto": "Manrope 400/600/800"
+  },
+  "descriptor": "Snacks y bebidas asiáticos",
+  "eslogan": "Abre algo diferente."
+}
