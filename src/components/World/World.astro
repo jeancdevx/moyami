@@ -1,0 +1,148 @@
+---
+import Icon from '@/components/Icon'
+---
+
+<div class='world' data-world>
+  <div class='world-stage'>
+    <img
+      class='world-poster'
+      src='/world-poster.webp'
+      width='1000'
+      height='900'
+      alt='Una pequeña tienda Moyami con estanterías de snacks y bebidas, acompañada por Amy y Molly'
+      fetchpriority='high'
+      data-world-poster
+    />
+    <div
+      class='world-canvas'
+      data-world-canvas
+      role='img'
+      aria-label='Minimundo de la tienda Moyami. Usa los botones para cambiar la vista.'
+    ></div>
+    <span class='world-sticker'>
+      Pequeño lugar.
+      <br />
+      Grandes antojos.
+    </span>
+  </div>
+  <div class='world-controls' data-world-controls hidden>
+    <button
+      type='button'
+      class='icon-button'
+      aria-label='Ver la tienda desde la izquierda'
+      data-world-view='left'
+    >
+      <Icon name='arrowLeft' />
+    </button>
+    <button
+      type='button'
+      class='world-center'
+      aria-label='Ver la tienda de frente'
+      data-world-view='front'
+      aria-pressed='true'
+    >
+      Date una vuelta
+    </button>
+    <button
+      type='button'
+      class='icon-button'
+      aria-label='Ver la tienda desde la derecha'
+      data-world-view='right'
+    >
+      <Icon name='arrowRight' />
+    </button>
+  </div>
+</div>
+<script>
+  import { mountWorldWhenReady } from './World.client'
+  mountWorldWhenReady()
+</script>
+<style>
+  .world {
+    position: relative;
+    min-width: 0;
+    padding-bottom: 48px;
+  }
+  .world-stage {
+    position: relative;
+    aspect-ratio: 1.1;
+    isolation: isolate;
+  }
+  .world-poster,
+  .world-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .world-canvas {
+    opacity: 0;
+    transition: opacity 800ms var(--fluid);
+  }
+  .world[data-ready='true'] .world-canvas {
+    opacity: 1;
+  }
+  .world[data-ready='true'] .world-poster {
+    visibility: hidden;
+  }
+  .world-canvas :global(canvas) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .world-sticker {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    display: block;
+    padding: 16px;
+    border-radius: 9999px;
+    background: var(--color-lima);
+    font-family: var(--font-display);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 700;
+    transform: rotate(8deg);
+    text-align: center;
+  }
+  .world-controls {
+    position: absolute;
+    bottom: 0;
+    inset-inline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .world-controls .icon-button {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+  }
+  .world-controls .icon-button:hover {
+    background: var(--color-lima);
+  }
+  .world-center {
+    border: 0;
+    background: transparent;
+    border-radius: 9999px;
+    padding: 8px 12px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    font-weight: 600;
+    transition: background-color 700ms var(--fluid);
+  }
+  .world-center:hover {
+    background: var(--color-lima);
+  }
+  @media (min-width: 1024px) {
+    .world-sticker {
+      right: 16px;
+      top: 24px;
+      padding: 24px;
+      font-size: var(--text-lg);
+      line-height: var(--text-lg--line-height);
+    }
+  }
+</style>
