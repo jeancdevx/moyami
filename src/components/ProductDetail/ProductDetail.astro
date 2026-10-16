@@ -1,0 +1,233 @@
+---
+import { Image } from 'astro:assets'
+import type { CollectionEntry } from 'astro:content'
+
+import Icon from '@/components/Icon'
+interface Props {
+  product: CollectionEntry<'products'>
+  modal?: boolean
+}
+const { product, modal = false } = Astro.props
+const p = product.data
+const Heading = modal ? 'h2' : 'h1'
+const categoryLabels = { snacks: 'Snacks', bebidas: 'Bebidas', ramen: 'Ramen' }
+---
+
+<article class='product-detail'>
+  <div class='product-gallery' data-gallery>
+    <div class='gallery-images'>
+      {p.images.map((image, index) => (
+        <figure data-gallery-image={index}>
+          <div class='gallery-image-frame'>
+            <Image
+              src={image.src}
+              alt={image.alt}
+              width={1024}
+              height={1024}
+              widths={[256, 512, 768, 1024]}
+              sizes='(max-width: 767px) calc(100vw - 128px), 384px'
+              format='webp'
+              quality={87}
+              loading='lazy'
+            />
+          </div>
+          {!modal && (
+            <figcaption>
+              {image.kind === 'synthetic-angle'
+                ? 'Vista generada con IA'
+                : 'Fotografía de referencia retocada'}
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </div>
+    <div
+      class='gallery-controls'
+      data-gallery-controls
+      hidden
+      aria-label='Vistas del producto'
+    >
+      {p.images.map((image, index) => (
+        <button
+          type='button'
+          data-gallery-select={index}
+          aria-label={
+            index === 0 ? 'Ver vista frontal' : 'Ver vista de tres cuartos'
+          }
+          aria-pressed={index === 0 ? 'true' : 'false'}
+        >
+          <Image
+            src={image.src}
+            alt=''
+            width={80}
+            height={80}
+            format='webp'
+            loading='lazy'
+          />
+          <span>{index === 0 ? 'Frontal' : 'Otra vista'}</span>
+        </button>
+      ))}
+    </div>
+  </div>
+  <div class='detail-copy'>
+    <p class='detail-category'>
+      {categoryLabels[p.category]}
+      <span aria-hidden='true'>/</span>
+      {p.brand}
+    </p>
+    <Heading id={modal ? 'dialog-product-title' : 'product-title'}>
+      {p.name}
+    </Heading>
+    <p class='detail-description'>{p.description}</p>
+    <dl>
+      {p.flavor && (
+        <div>
+          <dt>Sabor</dt>
+          <dd>{p.flavor}</dd>
+        </div>
+      )}
+      {p.presentation && (
+        <div>
+          <dt>Presentación</dt>
+          <dd>{p.presentation}</dd>
+        </div>
+      )}
+    </dl>
+    <p class='detail-note'>
+      Consulta el precio y la disponibilidad en el local. Revisa el empaque para
+      conocer ingredientes y preparación.
+    </p>
+    <a class='button button-primary' href='/#ubicacion' data-detail-location>
+      Encuéntranos en Caraz
+      <Icon name='mapPin' />
+    </a>
+  </div>
+</article>
+<style>
+  .product-detail {
+    display: grid;
+    gap: 32px;
+  }
+  .product-gallery {
+    min-width: 0;
+  }
+  .gallery-images {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  figure {
+    margin: 0;
+  }
+  .gallery-image-frame {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    padding: 24px;
+  }
+  .gallery-image-frame img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    min-width: 0;
+    object-fit: contain;
+  }
+  figcaption {
+    padding: 12px 16px;
+    text-align: center;
+    color: #50594f;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+  }
+  .gallery-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .gallery-controls button {
+    display: grid;
+    gap: 4px;
+    justify-items: center;
+    border: 1px solid #18201a33;
+    border-radius: 8px;
+    padding: 8px;
+    background: white;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    transition:
+      border-color 700ms var(--fluid),
+      background-color 700ms var(--fluid);
+  }
+  .gallery-controls button[aria-pressed='true'] {
+    border-color: var(--color-carbon);
+    background: var(--color-lima);
+  }
+  .gallery-controls button:hover {
+    border-color: var(--color-lila);
+  }
+  .gallery-controls img {
+    border-radius: 4px;
+    width: 64px;
+    height: 64px;
+  }
+  .detail-copy {
+    align-self: center;
+  }
+  .detail-category {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    font-weight: 600;
+  }
+  h1,
+  h2 {
+    font-size: var(--text-4xl);
+    line-height: var(--text-4xl--line-height);
+  }
+  .detail-description {
+    margin-top: 16px;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+  }
+  dl {
+    display: grid;
+    gap: 16px;
+    margin: 24px 0;
+  }
+  dl > div {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 12px;
+  }
+  dt {
+    color: #50594f;
+    font-size: var(--text-sm);
+  }
+  dd {
+    margin: 0;
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+  .detail-note {
+    color: #50594f;
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    margin-bottom: 24px;
+  }
+  @media (min-width: 640px) {
+    .gallery-image-frame {
+      padding: 40px;
+    }
+  }
+  @media (min-width: 768px) {
+    .product-detail {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+  }
+</style>
