@@ -1,0 +1,21 @@
+{
+  "name": "Cocoa Pie",
+  "brand": "Orion",
+  "category": "snacks",
+  "flavor": "Chocolate",
+  "presentation": "Caja de 6 unidades",
+  "description": "Pastelitos con cobertura sabor chocolate.",
+  "order": 3,
+  "images": [
+    {
+      "src": "../../assets/products/orion-cocoa-pie/frontal-1024.webp",
+      "alt": "Cocoa Pie, caja de 6 unidades, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/orion-cocoa-pie/tres-cuartos-1024.webp",
+      "alt": "Cocoa Pie, caja de 6 unidades, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

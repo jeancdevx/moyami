@@ -1,0 +1,21 @@
+{
+  "name": "Berry Pie",
+  "brand": "Orion",
+  "category": "snacks",
+  "flavor": "Fresa y frambuesa",
+  "presentation": "Caja de 6 unidades",
+  "description": "Pastelitos rellenos con sabores de frutos rojos.",
+  "order": 1,
+  "images": [
+    {
+      "src": "../../assets/products/orion-berry-pie/frontal-1024.webp",
+      "alt": "Berry Pie, caja de 6 unidades, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/orion-berry-pie/tres-cuartos-1024.webp",
+      "alt": "Berry Pie, caja de 6 unidades, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

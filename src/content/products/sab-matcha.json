@@ -1,0 +1,21 @@
+{
+  "name": "Sab matcha",
+  "brand": "Sab",
+  "category": "snacks",
+  "flavor": "Matcha",
+  "presentation": "Caja de 96 g",
+  "description": "Galletas rellenas en su versión de té matcha.",
+  "order": 5,
+  "images": [
+    {
+      "src": "../../assets/products/sab-matcha/frontal-1024.webp",
+      "alt": "Sab matcha, caja de 96 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/sab-matcha/tres-cuartos-1024.webp",
+      "alt": "Sab matcha, caja de 96 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

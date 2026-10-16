@@ -1,0 +1,21 @@
+{
+  "name": "Fruit Fun Fruity limón",
+  "brand": "Jiashili",
+  "category": "snacks",
+  "flavor": "Limón",
+  "presentation": "Bolsa de 85 g",
+  "description": "Mini galletas rellenas sabor limón.",
+  "order": 18,
+  "images": [
+    {
+      "src": "../../assets/products/fruit-fun-limon/frontal-1024.webp",
+      "alt": "Fruit Fun Fruity limón, bolsa de 85 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/fruit-fun-limon/tres-cuartos-1024.webp",
+      "alt": "Fruit Fun Fruity limón, bolsa de 85 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

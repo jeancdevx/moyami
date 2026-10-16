@@ -1,0 +1,21 @@
+{
+  "name": "Fruit Fun Fruity fresa",
+  "brand": "Jiashili",
+  "category": "snacks",
+  "flavor": "Fresa",
+  "presentation": "Bolsa de 85 g",
+  "description": "Mini galletas rellenas sabor fresa.",
+  "order": 19,
+  "images": [
+    {
+      "src": "../../assets/products/fruit-fun-fresa/frontal-1024.webp",
+      "alt": "Fruit Fun Fruity fresa, bolsa de 85 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/fruit-fun-fresa/tres-cuartos-1024.webp",
+      "alt": "Fruit Fun Fruity fresa, bolsa de 85 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

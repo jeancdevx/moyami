@@ -1,0 +1,21 @@
+{
+  "name": "Fruit Fun Fruity arándano",
+  "brand": "Jiashili",
+  "category": "snacks",
+  "flavor": "Arándano",
+  "presentation": "Paquete individual",
+  "description": "Galletas rellenas sabor arándano.",
+  "order": 0,
+  "images": [
+    {
+      "src": "../../assets/products/fruit-fun-arandano/frontal-1024.webp",
+      "alt": "Fruit Fun Fruity arándano, paquete individual, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/fruit-fun-arandano/tres-cuartos-1024.webp",
+      "alt": "Fruit Fun Fruity arándano, paquete individual, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

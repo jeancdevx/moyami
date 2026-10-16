@@ -1,0 +1,21 @@
+{
+  "name": "Pepero choco cookie",
+  "brand": "Lotte",
+  "category": "snacks",
+  "flavor": "Choco cookie",
+  "presentation": "Caja de 32 g",
+  "description": "Palitos de galleta con cobertura choco cookie.",
+  "order": 15,
+  "images": [
+    {
+      "src": "../../assets/products/lotte-pepero-choco-cookie/frontal-1024.webp",
+      "alt": "Pepero choco cookie, caja de 32 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/lotte-pepero-choco-cookie/tres-cuartos-1024.webp",
+      "alt": "Pepero choco cookie, caja de 32 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "VINA tres capas",
+  "brand": "VINA",
+  "category": "snacks",
+  "flavor": "Yogur",
+  "presentation": "Caja de 100 g",
+  "description": "Bocaditos de galleta con relleno sabor yogur.",
+  "order": 4,
+  "images": [
+    {
+      "src": "../../assets/products/vina-yogur/frontal-1024.webp",
+      "alt": "VINA tres capas, caja de 100 g, vista frontal retocada",
+      "kind": "retouched-reference"
+    },
+    {
+      "src": "../../assets/products/vina-yogur/tres-cuartos-1024.webp",
+      "alt": "VINA tres capas, caja de 100 g, vista de tres cuartos generada con IA",
+      "kind": "synthetic-angle"
+    }
+  ]
+}
