@@ -180,9 +180,16 @@ en otro puerto usando `PLAYWRIGHT_BASE_URL`.
 ## Desplegar en Vercel
 
 El proyecto se despliega como Astro estático. `vercel.json` fija el preset
-`astro`, la instalación con lockfile congelado, `pnpm validate` como comando de
-construcción y `dist` como salida. No necesita un adaptador de servidor. Vercel
-no publica una construcción que falle estas comprobaciones.
+`astro`, la instalación con lockfile congelado, `pnpm build:vercel` como comando
+de construcción y `dist` como salida. No necesita un adaptador de servidor.
+Vercel no publica una construcción que falle estas comprobaciones.
+
+`build:vercel` normaliza con Oxfmt únicamente el formato de la copia de
+`vercel.json` recibida durante el despliegue y después ejecuta `pnpm validate`
+completo. Así, diferencias de espacios o saltos de línea en esa copia no
+bloquean la construcción. El resto de los archivos conserva la comprobación
+estricta de formato; `pnpm validate` también sigue comprobando `vercel.json` sin
+modificarlo cuando se ejecuta localmente o desde el hook `pre-push`.
 
 1. Cambia a Node **24.22.0**, ejecuta `pnpm install --frozen-lockfile` y prepara
    tus commits. El hook `pre-push` verificará el proyecto antes del primer push
@@ -218,7 +225,7 @@ originales y los metadatos utilizados por `audit:check`.
 Puedes comprobar localmente una compilación equivalente a producción:
 
 ```sh
-VERCEL=1 VERCEL_ENV=production SITE_URL=https://dominio-definitivo.pe PUBLIC_INDEXABLE=true pnpm validate
+VERCEL=1 VERCEL_ENV=production SITE_URL=https://dominio-definitivo.pe PUBLIC_INDEXABLE=true pnpm build:vercel
 ```
 
 `dist/` es el artefacto estático. El dominio anterior es un ejemplo de comando,

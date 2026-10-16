@@ -9,6 +9,7 @@
     "dev:status": "astro dev status",
     "dev:logs": "astro dev logs",
     "build": "astro build",
+    "build:vercel": "oxfmt --write vercel.json && pnpm validate",
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",
