@@ -1,23 +1,94 @@
+---
+import { isIndexable } from '@/config/indexing'
+import { site } from '@/config/site'
+
+import '@/styles/global.css'
+
+interface Props {
+  title?: string
+  description?: string
+  structuredData?: Record<string, unknown>
+}
+const {
+  title = site.title,
+  description = site.description,
+  structuredData
+} = Astro.props
+const canonical = Astro.site
+  ? new URL(Astro.url.pathname, Astro.site)
+  : undefined
+const shareImage = Astro.site
+  ? new URL('/og-moyami.png', Astro.site).href
+  : '/og-moyami.png'
+const indexable = isIndexable(Astro.site)
+---
+
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang='es-PE'>
+  <head>
+    <meta charset='utf-8' />
+    <meta
+      name='viewport'
+      content='width=device-width, initial-scale=1, viewport-fit=cover'
+    />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <link rel='icon' href='/favicon.ico' />
+    <meta name='generator' content={Astro.generator} />
+    <link
+      rel='preload'
+      href='/fonts/bricolage-grotesque-latin.woff2'
+      as='font'
+      type='font/woff2'
+      crossorigin
+    />
+    <link
+      rel='preload'
+      href='/fonts/manrope-latin.woff2'
+      as='font'
+      type='font/woff2'
+      crossorigin
+    />
+    <title>{title}</title>
+    <meta name='description' content={description} />
+    <meta name='theme-color' content='#18201A' />
+    <meta
+      name='robots'
+      content={indexable ? 'index, follow' : 'noindex, follow'}
+    />
+    {canonical && <link rel='canonical' href={canonical} />}
+    <meta property='og:type' content='website' />
+    <meta property='og:locale' content='es_PE' />
+    <meta property='og:site_name' content={site.name} />
+    <meta property='og:title' content={title} />
+    <meta property='og:description' content={description} />
+    <meta property='og:image' content={shareImage} />
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='630' />
+    <meta
+      property='og:image:alt'
+      content='Moyami, snacks y bebidas asiáticos'
+    />
+    {canonical && <meta property='og:url' content={canonical} />}
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:title' content={title} />
+    <meta name='twitter:description' content={description} />
+    <meta name='twitter:image' content={shareImage} />
+    {structuredData && (
+      <script
+        type='application/ld+json'
+        set:html={JSON.stringify(structuredData).replaceAll('<', '\\u003c')}
+      />
+    )}
+  </head>
+  <body>
+    <a class='skip-link' href='#contenido'>
+      Saltar al contenido
+    </a>
+    <slot />
+  </body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<script>
+  import { setupReveals } from '@/scripts/reveals'
+  setupReveals()
+</script>
