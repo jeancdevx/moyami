@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "pets": [
+    "Amy",
+    "Molly"
+  ],
+  "loop_duration_ms": 1920,
+  "frames_per_pet": 8,
+  "palette": {
+    "charcoal": "#18201A",
+    "lime": "#C8F04A",
+    "lavender": "#A792EF",
+    "offwhite": "#F7F8F2"
+  },
+  "marca": "Moyami"
+}

@@ -1,0 +1,168 @@
+---
+import Icon from '@/components/Icon'
+
+import amyAnimated from '@/assets/mascots/amy/amy-animada.webp'
+import amyStatic from '@/assets/mascots/amy/amy-estatica.png'
+import mollyAnimated from '@/assets/mascots/molly/molly-animada.webp'
+import mollyStatic from '@/assets/mascots/molly/molly-estatica.png'
+---
+
+<section
+  id='nosotras'
+  class='mascots section-space'
+  aria-labelledby='mascot-title'
+>
+  <div class='page-width mascots-layout'>
+    <div class='mascot-copy' data-reveal>
+      <p class='eyebrow mb-4'>Las compañeras de Moyami</p>
+      <h2 id='mascot-title' class='section-title'>
+        Dos amigas.
+        <br />
+        Mucha curiosidad.
+      </h2>
+      <p>
+        Ellas son Amy y Molly. Una dupla con personalidad propia para
+        acompañarte a descubrir algo diferente.
+      </p>
+      <a href='#catalogo' class='button button-primary'>
+        Explorar catálogo
+        <Icon name='arrowRight' />
+      </a>
+    </div>
+    <div class='mascot-pair' data-reveal>
+      <figure>
+        <div class='mascot-circle amy-circle'>
+          <img
+            data-mascot
+            data-static={amyStatic.src}
+            data-animated={amyAnimated.src}
+            src={amyStatic.src}
+            width='512'
+            height='512'
+            alt='Amy, perrita de orejas caídas con chaqueta lila'
+            loading='lazy'
+          />
+        </div>
+        <figcaption>
+          Amy<span>La compañía más dulce</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <div class='mascot-circle molly-circle'>
+          <img
+            data-mascot
+            data-static={mollyStatic.src}
+            data-animated={mollyAnimated.src}
+            src={mollyStatic.src}
+            width='512'
+            height='512'
+            alt='Molly, gatita tricolor con bandana lima'
+            loading='lazy'
+          />
+        </div>
+        <figcaption>
+          Molly<span>Curiosa por naturaleza</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<script>
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)')
+  const saveData = (
+    navigator as Navigator & { connection?: { saveData?: boolean } }
+  ).connection?.saveData
+  const pets = document.querySelectorAll<HTMLImageElement>('[data-mascot]')
+  const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      const img = entry.target as HTMLImageElement
+      img.src =
+        entry.isIntersecting && !reduced.matches && !saveData
+          ? img.dataset.animated!
+          : img.dataset.static!
+    }
+  })
+  pets.forEach(pet => observer.observe(pet))
+  reduced.addEventListener('change', () => {
+    if (reduced.matches)
+      pets.forEach(pet => {
+        pet.src = pet.dataset.static!
+      })
+  })
+  window.addEventListener('pagehide', () => observer.disconnect(), {
+    once: true
+  })
+</script>
+<style>
+  .mascots {
+    background: var(--color-lila);
+  }
+  .mascots-layout {
+    display: grid;
+    align-items: center;
+    gap: 48px;
+  }
+  .mascot-copy > p:not(.eyebrow) {
+    max-width: 480px;
+    margin-top: 24px;
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+  }
+  .mascot-copy .button {
+    margin-top: 32px;
+  }
+  .mascot-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  figure {
+    margin: 0;
+    min-width: 0;
+  }
+  figure + figure {
+    padding-top: 48px;
+  }
+  .mascot-circle {
+    aspect-ratio: 1;
+    border-radius: 9999px;
+    display: grid;
+    place-items: center;
+  }
+  .amy-circle {
+    background: var(--color-tiza);
+  }
+  .molly-circle {
+    background: var(--color-lima);
+  }
+  .mascot-circle img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.1);
+  }
+  figcaption {
+    margin-top: 24px;
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    font-weight: 700;
+  }
+  figcaption span {
+    display: block;
+    margin-top: 4px;
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    font-weight: 400;
+  }
+  @media (min-width: 1024px) {
+    .mascots-layout {
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+    }
+    .mascot-pair {
+      gap: 24px;
+    }
+  }
+</style>
