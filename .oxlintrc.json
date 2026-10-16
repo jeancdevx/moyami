@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "import", "unicorn"],
+  "categories": { "correctness": "error" },
+  "ignorePatterns": [
+    "moyami-identidad/**",
+    "resources/**",
+    "dist/**",
+    ".astro/**",
+    "public/**",
+    "test-results/**",
+    "playwright-report/**"
+  ],
+  "env": { "browser": true, "node": true },
+  "rules": { "no-console": "off" }
+}
